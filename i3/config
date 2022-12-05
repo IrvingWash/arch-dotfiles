@@ -1,7 +1,7 @@
 set $mod Mod4
 
 # font
-font pango:monospace 8
+font pango:Fira Code 8
 
 # System
 exec --no-startup-id dex --autostart --environment i3
@@ -125,3 +125,11 @@ for_window [class=".*"] border pixel 2
 gaps inner 5
 gaps horizontal 5
 gaps vertical 5
+
+# Colors
+# class                 border  backgr. text    indicator child_border
+client.focused          #4c7899 #285577 #ffffff #FB9F7F   #ffd47e
+client.focused_inactive #333333 #5f676a #ffffff #7B82A6   #56557A
+client.unfocused        #333333 #222222 #888888 #292d2e   #222222
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
