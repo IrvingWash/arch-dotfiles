@@ -64,14 +64,23 @@ packer.startup(
 		use 'lewis6991/gitsigns.nvim';
 
 		-- Autocompletion
-		use 'hrsh7th/cmp-nvim-lsp';
-		use 'hrsh7th/cmp-buffer';
-		use 'hrsh7th/cmp-path';
-		use 'hrsh7th/cmp-cmdline';
-		use 'hrsh7th/nvim-cmp';
-		use 'saadparwaiz1/cmp_luasnip';
+		use {
+			'hrsh7th/cmp-nvim-lsp',
+			'hrsh7th/cmp-buffer',
+			'hrsh7th/cmp-path',
+			'hrsh7th/cmp-cmdline',
+			'hrsh7th/nvim-cmp',
+			'saadparwaiz1/cmp_luasnip',
+		};
 
 		-- Snippets
 		use 'L3MON4D3/LuaSnip';
+
+		-- LSP
+		use {
+			'neovim/nvim-lspconfig',
+			'williamboman/mason.nvim',
+			'williamboman/mason-lspconfig.nvim',
+		}
 	end
 );

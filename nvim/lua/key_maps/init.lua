@@ -67,3 +67,9 @@ map(modes.normal, '<Leader>c', '<Cmd>Bdelete<CR>', options);
 
 -- Comment
 -- gcc - toggle comment
+
+-- LSP
+vim.keymap.set(modes.normal, '<Leader>e', vim.diagnostic.open_float, options);
+vim.keymap.set(modes.normal, '[d', vim.diagnostic.goto_prev, options);
+vim.keymap.set(modes.normal, ']d', vim.diagnostic.goto_next, options);
+vim.keymap.set(modes.normal, '<Leader>q', vim.diagnostic.setloclist, options);

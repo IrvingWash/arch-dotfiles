@@ -12,3 +12,4 @@ require('autopairing');
 require('commenting');
 require('greeter');
 require('autocompletion');
+require('lsp-manager');
