@@ -36,5 +36,8 @@ packer.startup(
 			'nvim-lualine/lualine.nvim',
 			requires = { 'kyazdani42/nvim-web-devicons', opt = true }
 		}
+
+		-- Git integration
+		use 'lewis6991/gitsigns.nvim'
 	end
 );

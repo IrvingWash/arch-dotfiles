@@ -43,9 +43,17 @@ map(modes.visual_block, '<A-j>', ':move \'>+1<CR>gv-gv', options);
 map(modes.visual_block, '<A-k>', ':move \'<-2<CR>gv-gv', options);
 
 -- Telescope
-map(modes.normal, '<Leader>ff', '<Cmd>Telescope find_files<cr>', options);
-map(modes.normal, '<Leader>fg', '<cmd>Telescope live_grep<cr>', options);
+map(modes.normal, '<Leader>ff', '<Cmd>Telescope find_files<CR>', options);
+map(modes.normal, '<Leader>fg', '<Cmd>Telescope live_grep<CR>', options);
+map(modes.normal, '<Leader>gt', '<Cmd>Telescope git_status<CR>', options);
+map(modes.normal, '<Leader>gb', '<Cmd>Telescope git_branches<CR>', options);
 
 -- Neotree
-map(modes.normal, '<Tab>', '<Cmd>Neotree toggle<cr>', options);
-map(modes.normal, '<Leader>f', '<Cmd>Neotree focus<cr>', options);
+map(modes.normal, '<Tab>', '<Cmd>Neotree toggle<CR>', options);
+map(modes.normal, '<Leader>f', '<Cmd>Neotree focus<CR>', options);
+
+-- Gitsigns
+map(modes.normal, '<Leader>gs', ':Gitsigns stage_hunk<CR>', options);
+map(modes.normal, '<Leader>gu', ':Gitsigns undo_stage_hunk<CR>', options);
+map(modes.normal, '<leader>gd', ':Gitsigns diffthis<CR>', options);
+map(modes.normal, '<Leader>gl', ':Gitsigns blame_line<CR>', options);

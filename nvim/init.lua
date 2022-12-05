@@ -6,3 +6,4 @@ require('key_maps');
 require('fuzzy-finder');
 require('file_explorer');
 require('status_line');
+require('git_integration');
