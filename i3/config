@@ -12,7 +12,7 @@ exec --no-startup-id nm-applet
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/gustave-dore.jpg
+exec_always --no-startup-id nitrogen --restore
 
 # Volume
 set $refresh_i3status killall -SIGUSR1 i3status
