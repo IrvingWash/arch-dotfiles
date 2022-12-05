@@ -82,5 +82,8 @@ packer.startup(
 			'williamboman/mason.nvim',
 			'williamboman/mason-lspconfig.nvim',
 		}
+
+		-- Syntax highlighting
+		use 'nvim-treesitter/nvim-treesitter';
 	end
 );

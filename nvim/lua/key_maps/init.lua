@@ -11,6 +11,7 @@ local modes = {
 }
 
 local map = vim.api.nvim_set_keymap;
+local setmap = vim.keymap.set;
 
 -- Remap leader
 map('', '<Space>', '<Nop>', options);
@@ -69,7 +70,7 @@ map(modes.normal, '<Leader>c', '<Cmd>Bdelete<CR>', options);
 -- gcc - toggle comment
 
 -- LSP
-vim.keymap.set(modes.normal, '<Leader>e', vim.diagnostic.open_float, options);
-vim.keymap.set(modes.normal, '[d', vim.diagnostic.goto_prev, options);
-vim.keymap.set(modes.normal, ']d', vim.diagnostic.goto_next, options);
-vim.keymap.set(modes.normal, '<Leader>q', vim.diagnostic.setloclist, options);
+setmap(modes.normal, '<Leader>e', vim.diagnostic.open_float, options);
+setmap(modes.normal, '[d', vim.diagnostic.goto_prev, options);
+setmap(modes.normal, ']d', vim.diagnostic.goto_next, options);
+setmap(modes.normal, '<Leader>q', vim.diagnostic.setloclist, options);
