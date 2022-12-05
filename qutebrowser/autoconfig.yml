@@ -8,3 +8,5 @@ config_version: 2
 settings:
   backend:
     global: webengine
+  content.javascript.can_access_clipboard:
+    global: true

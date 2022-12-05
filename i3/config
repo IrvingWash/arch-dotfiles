@@ -12,7 +12,7 @@ exec --no-startup-id nm-applet
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/mountain.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/gustave-dore.jpg
 
 # Volume
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -122,9 +122,7 @@ mode "resize" {
 
 # Gaps
 for_window [class=".*"] border pixel 2
-gaps inner 5
-gaps horizontal 5
-gaps vertical 5
+gaps inner 10
 
 # Colors
 # class                 border  backgr. text    indicator child_border
