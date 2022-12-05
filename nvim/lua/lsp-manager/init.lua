@@ -10,7 +10,7 @@ require('mason').setup({
 
 require('mason-lspconfig').setup();
 
-local on_attach = function(client, bufnr)
+local on_attach = function(_, bufnr)
 	vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
 
 	local map = vim.keymap.set;
@@ -37,16 +37,28 @@ local lsp_flags = {
 	debounce_text_changes = 200,
 }
 
+local capabilities = vim.lsp.protocol.make_client_capabilities();
+
+capabilities.textDocument.completion.completionItem.snippetSupport = true
+capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
+
 require('mason-lspconfig').setup_handlers {
 		function (server_name) -- default handler (optional)
 				require('lspconfig')[server_name].setup {
 					on_attach = on_attach,
 					flags = lsp_flags,
+					capabilities = capabilities,
 				}
 		end,
-		-- Next, you can provide a dedicated handler for specific servers.
-		-- For example, a handler override for the `rust_analyzer`:
-		-- ['rust_analyzer'] = function ()
-		--		require("rust-tools").setup {}
-		-- end
+		['sumneko_lua'] = function ()
+			require('lspconfig')['sumneko_lua'].setup {
+				settings = {
+					Lua = {
+						diagnostics = {
+							globals = {'vim'},
+						},
+					},
+				},
+			}
+		end
 }
