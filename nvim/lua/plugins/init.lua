@@ -1,23 +1,36 @@
 local status, packer = pcall(require, 'packer');
 
 if (not status) then
-	print('Packer is not installed')
-	return
+	print('Packer is not installed');
+	return;
 end
 
-vim.cmd [[packadd packer.nvim]]
+vim.cmd [[packadd packer.nvim]];
 
 packer.startup(
 	function(use)
-		use 'wbthomason/packer.nvim'
+		use 'wbthomason/packer.nvim';
 
 		-- Color scheme
 		use 'drewtempelmeyer/palenight.vim';
 
+		-- Greeter
+		use 'goolord/alpha-nvim';
+
+		-- Pictograms
+		use 'onsails/lspkind-nvim';
+
+		-- Autopairs
+		use "windwp/nvim-autopairs";
+
+		-- Comments
+		use 'numToStr/Comment.nvim';
+
 		-- Fuzzy finder
 		use {
-			'nvim-telescope/telescope.nvim', tag = '0.1.0',
-			requires = { {'nvim-lua/plenary.nvim'} }
+			'nvim-telescope/telescope.nvim',
+			tag = '0.1.0',
+			requires = { 'nvim-lua/plenary.nvim' },
 		}
 
 		-- File explorer
@@ -28,8 +41,18 @@ packer.startup(
 				"nvim-lua/plenary.nvim",
 				"nvim-tree/nvim-web-devicons",
 				"MunifTanjim/nui.nvim",
-			}
+			},
 		}
+
+		-- Tabs
+		use {
+			'akinsho/bufferline.nvim',
+			tag = "v3.*",
+			requires = 'nvim-tree/nvim-web-devicons',
+		}
+		
+		-- Buffer deletion
+		use 'famiu/bufdelete.nvim';
 
 		-- Status line
 		use {
@@ -38,6 +61,6 @@ packer.startup(
 		}
 
 		-- Git integration
-		use 'lewis6991/gitsigns.nvim'
+		use 'lewis6991/gitsigns.nvim';
 	end
 );

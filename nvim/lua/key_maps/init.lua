@@ -57,3 +57,13 @@ map(modes.normal, '<Leader>gs', ':Gitsigns stage_hunk<CR>', options);
 map(modes.normal, '<Leader>gu', ':Gitsigns undo_stage_hunk<CR>', options);
 map(modes.normal, '<leader>gd', ':Gitsigns diffthis<CR>', options);
 map(modes.normal, '<Leader>gl', ':Gitsigns blame_line<CR>', options);
+
+-- Bufferline
+map(modes.normal, '<S-l>', '<Cmd>BufferLineCycleNext<CR>', options);
+map(modes.normal, '<S-h>', '<Cmd>BufferLineCyclePrev<CR>', options);
+
+-- Bufdelete
+map(modes.normal, '<Leader>c', '<Cmd>Bdelete<CR>', options);
+
+-- Comment
+-- gcc - toggle comment
