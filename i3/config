@@ -21,7 +21,7 @@ exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id setxkbmap -layout us,ru -option grp:win_space_toggle
 
 # Notifications
-exec --no-startup-id dunst
+exec --no-startup-id dunst --config ~/.config/dunst/dunstrc
 
 # Volume
 set $refresh_i3status killall -SIGUSR1 i3status
