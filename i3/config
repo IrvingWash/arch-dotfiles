@@ -9,7 +9,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Compositor
-exec_always --no-startup-id picom --config ~/.config/picom/picom.conf -b
+exec_always --no-startup-id picom --config ~/.config/picom/picom.conf --experimental-backends
 
 # Bar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
