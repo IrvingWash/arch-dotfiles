@@ -134,7 +134,7 @@ mode "resize" {
 
 # Gaps
 for_window [class=".*"] border pixel 2
-gaps inner 10
+gaps inner 20
 
 # Colors
 # class                 border  backgr. text    indicator child_border
