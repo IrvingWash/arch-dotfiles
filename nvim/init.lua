@@ -14,3 +14,4 @@ require('greeter');
 require('autocompletion');
 require('lsp-manager');
 require('syntax-highlighting');
+require('terminal');

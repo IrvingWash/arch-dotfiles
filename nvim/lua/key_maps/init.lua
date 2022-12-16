@@ -74,3 +74,7 @@ setmap(modes.normal, '<Leader>e', vim.diagnostic.open_float, options);
 setmap(modes.normal, '[d', vim.diagnostic.goto_prev, options);
 setmap(modes.normal, ']d', vim.diagnostic.goto_next, options);
 setmap(modes.normal, '<Leader>q', vim.diagnostic.setloclist, options);
+
+-- ToggleTerm
+map(modes.normal, '<F7>', "<Cmd>ToggleTerm<CR>", options);
+map(modes.terminal, '<F7>', "<Cmd>ToggleTerm<CR>", options);

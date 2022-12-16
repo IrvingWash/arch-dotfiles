@@ -37,7 +37,7 @@ packer.startup(
 		use {
 			"nvim-neo-tree/neo-tree.nvim",
 			branch = "v2.x",
-			requires = { 
+			requires = {
 				"nvim-lua/plenary.nvim",
 				"nvim-tree/nvim-web-devicons",
 				"MunifTanjim/nui.nvim",
@@ -50,7 +50,7 @@ packer.startup(
 			tag = "v3.*",
 			requires = 'nvim-tree/nvim-web-devicons',
 		}
-		
+
 		-- Buffer deletion
 		use 'famiu/bufdelete.nvim';
 
@@ -85,5 +85,11 @@ packer.startup(
 
 		-- Syntax highlighting
 		use 'nvim-treesitter/nvim-treesitter';
+
+		-- Terminal
+		use {
+			"akinsho/toggleterm.nvim",
+			tag = '*'
+		}
 	end
 );
