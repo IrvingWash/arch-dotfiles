@@ -1,13 +1,13 @@
-require("toggleterm").setup{
+require('toggleterm').setup{
 	size = 10,
 	open_mappint = [[<F7>]],
 	shading_factor = 2,
-	direction = "float",
+	direction = 'float',
 	float_opts = {
-		border = "curved",
+		border = 'curved',
 		highlights = {
-			border = "Normal",
-			background = "Normal",
+			border = 'Normal',
+			background = 'Normal',
 		},
 	},
 }

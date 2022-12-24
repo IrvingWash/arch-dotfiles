@@ -9,25 +9,25 @@ cmp.setup {
 		end,
 	},
 	mapping = {
-		["<C-Space>"] = cmp.mapping(cmp.mapping.complete()),
-		["<CR>"] = cmp.mapping.confirm { select = true },
-		["<Tab>"] = cmp.mapping(function(fallback)
+		['<C-Space>'] = cmp.mapping(cmp.mapping.complete()),
+		['<CR>'] = cmp.mapping.confirm { select = true },
+		['<Tab>'] = cmp.mapping(function(fallback)
 			if cmp.visible() then
-				cmp.select_next_item()
+				cmp.select_next_item();
 			elseif luasnip.expandable() then
-				luasnip.expand()
+				luasnip.expand();
 			elseif luasnip.expand_or_jumpable() then
-				luasnip.expand_or_jump()
+				luasnip.expand_or_jump();
 			else
-				fallback()
+				fallback();
 			end
-		end, { "i", "s" }),
+		end, { 'i', 's' }),
 	},
 	sources = {
 		{ name = 'nvim_lsp' },
-		{ name = "luasnip" },
-		{ name = "buffer" },
-		{ name = "path" },
+		{ name = 'luasnip' },
+		{ name = 'buffer' },
+		{ name = 'path' },
 	},
 	confirm_opts = {
 		behavior = cmp.ConfirmBehavior.Replace,
@@ -44,6 +44,6 @@ cmp.setup {
 		format = lspkind.cmp_format({
 			mode = 'symbol_text',
 			maxwidth = 50,
-		})
-	}
+		});
+	},
 }
