@@ -1,0 +1,17 @@
+[2022-12-20 00:58:18.675] [info]  Running version 2022.7.0
+[2022-12-20 00:58:18.705] [error] [electron client protocol] FAILED to set default protocol 'insomnia://'
+[2022-12-20 00:58:18.729] [info]  [electron client protocol] the current executable is not the default protocol for 'insomnia://'
+[2022-12-20 00:58:18.773] [info]  [electron client protocol] the default application set for 'insomnia://' is 'insomnia.desktop
+'
+[2022-12-20 00:58:18.993] [info]  [fix] Running database repairs
+[2022-12-20 00:58:19.043] [info]  [db] Initialized DB at /home/irvingwash/.config/Insomnia/insomnia.$TYPE.db
+[2022-12-20 00:58:19.043] [info]  [db] Init responses DB
+[2022-12-20 00:58:19.043] [info]  [db] Init websocket-responses DB
+[2022-12-20 00:58:19.050] [info]  [localstorage] Initialized at /home/irvingwash/.config/Insomnia/localStorage
+[2022-12-20 00:58:19.147] [info]  [main] Loading file:///opt/insomnia/resources/app.asar/index.html
+[2022-12-20 00:58:19.668] [info]  [updater] Updater not running platform=linux dev=false
+[2022-12-20 00:58:21.419] [info]  [main] Window ready, handling command line arguments [ '/opt/insomnia/insomnia' ]
+[2022-12-20 00:58:29.985] [info]  [response] Delete body /home/irvingwash/.config/Insomnia/responses/4a46296f-8e94-4f60-a02c-04f0d35fe394.response
+[2022-12-20 00:58:29.986] [info]  [response] Delete body /home/irvingwash/.config/Insomnia/responses/a041555a-af77-477b-84f9-1c0108b0c745.response
+[2022-12-20 00:58:29.987] [info]  [response] Delete timeline /home/irvingwash/.config/Insomnia/responses/2ffefc11-b3b8-4817-aa44-2c8ec0ea5038.timeline
+[2022-12-20 00:58:29.987] [info]  [response] Delete timeline /home/irvingwash/.config/Insomnia/responses/64516167-a975-4a18-9b60-9cc3421ed9a4.timeline

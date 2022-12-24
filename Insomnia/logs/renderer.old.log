@@ -1,0 +1,35 @@
+[2022-12-20 00:58:20.203] [info]  [db] Initialized DB client
+[2022-12-20 00:58:20.319] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2022-12-20 00:58:20.323] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2022-12-20 00:58:20.627] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2022-12-20 00:58:20.891] [info]  [FileSystemDriver] Initialized in "/home/irvingwash/.config/Insomnia/version-control"
+[2022-12-20 00:58:20.892] [info]  [sync] checking for collections which need to be moved into a remote project
+[2022-12-20 00:58:20.895] [info]  [FileSystemDriver] Initialized in "/home/irvingwash/.config/Insomnia/version-control"
+[2022-12-20 01:00:18.747] [info]  [network] Sending req=req_de62ef5cc2634b5d9f3dc66b7a38f52d env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-20 01:00:18.877] [info]  [network] Response succeeded req=req_de62ef5cc2634b5d9f3dc66b7a38f52d status=400
+[2022-12-20 01:01:41.418] [info]  [network] Sending req=req_de62ef5cc2634b5d9f3dc66b7a38f52d env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-20 01:01:41.557] [info]  [network] Response succeeded req=req_de62ef5cc2634b5d9f3dc66b7a38f52d status=201
+[2022-12-20 01:02:05.349] [info]  [network] Sending req=req_36da942f2c2f4ec192efa8b9bf376e53 env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-20 01:02:05.451] [info]  [network] Response succeeded req=req_36da942f2c2f4ec192efa8b9bf376e53 status=404
+[2022-12-20 01:02:24.639] [info]  [network] Sending req=req_36da942f2c2f4ec192efa8b9bf376e53 env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-20 01:02:24.745] [info]  [network] Response succeeded req=req_36da942f2c2f4ec192efa8b9bf376e53 status=200
+[2022-12-20 01:07:07.127] [info]  [network] Sending req=req_36da942f2c2f4ec192efa8b9bf376e53 env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-20 01:07:07.236] [info]  [network] Response succeeded req=req_36da942f2c2f4ec192efa8b9bf376e53 status=200
+[2022-12-20 01:07:11.365] [info]  [network] Sending req=req_ea02321674b140e4ab26b74b0077d827 env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-20 01:07:11.480] [info]  [network] Response succeeded req=req_ea02321674b140e4ab26b74b0077d827 status=400
+[2022-12-20 01:08:38.154] [info]  [network] Sending req=req_ea02321674b140e4ab26b74b0077d827 env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-20 01:08:38.281] [info]  [network] Response succeeded req=req_ea02321674b140e4ab26b74b0077d827 status=500
+[2022-12-20 01:14:41.739] [info]  [network] Sending req=req_89ce639b38074acf8afa1371d53f382f env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-20 01:14:41.820] [info]  [network] Response failed req=req_89ce639b38074acf8afa1371d53f382f err=Error: Couldn't connect to server
+[2022-12-20 01:14:57.189] [info]  [network] Sending req=req_89ce639b38074acf8afa1371d53f382f env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-20 01:14:57.297] [info]  [network] Response succeeded req=req_89ce639b38074acf8afa1371d53f382f status=404
+[2022-12-20 01:15:35.357] [info]  [network] Sending req=req_89ce639b38074acf8afa1371d53f382f env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-20 01:15:35.463] [info]  [network] Response succeeded req=req_89ce639b38074acf8afa1371d53f382f status=200
+[2022-12-20 01:15:39.909] [info]  [network] Sending req=req_ea02321674b140e4ab26b74b0077d827 env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-20 01:15:40.034] [info]  [network] Response succeeded req=req_ea02321674b140e4ab26b74b0077d827 status=200
+[2022-12-20 01:15:42.872] [info]  [network] Sending req=req_36da942f2c2f4ec192efa8b9bf376e53 env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-20 01:15:42.984] [info]  [network] Response succeeded req=req_36da942f2c2f4ec192efa8b9bf376e53 status=200
+[2022-12-20 01:18:05.079] [info]  [network] Sending req=req_89ce639b38074acf8afa1371d53f382f env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-20 01:18:05.177] [info]  [network] Response succeeded req=req_89ce639b38074acf8afa1371d53f382f status=404
+[2022-12-20 01:18:12.895] [info]  [network] Sending req=req_ea02321674b140e4ab26b74b0077d827 env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-20 01:18:13.003] [info]  [network] Response succeeded req=req_ea02321674b140e4ab26b74b0077d827 status=404

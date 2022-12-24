@@ -1,0 +1,117 @@
+[
+	{
+		"value": "Preparing request to http://localhost:3333/api/games",
+		"name": "Text",
+		"timestamp": 1671487218849
+	},
+	{
+		"value": "Current time is 2022-12-19T22:00:18.849Z",
+		"name": "Text",
+		"timestamp": 1671487218849
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1671487218849
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1671487218853
+	},
+	{
+		"value": "Enable timeout of 30000ms",
+		"name": "Text",
+		"timestamp": 1671487218853
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1671487218853
+	},
+	{
+		"name": "Text",
+		"value": "  Trying 127.0.0.1:3333...\n",
+		"timestamp": 1671487218855
+	},
+	{
+		"name": "Text",
+		"value": "Connected to localhost (127.0.0.1) port 3333 (#0)\n",
+		"timestamp": 1671487218855
+	},
+	{
+		"name": "HeaderOut",
+		"value": "POST /api/games HTTP/1.1\r\nHost: localhost:3333\r\nUser-Agent: insomnia/2022.7.0\r\nAccept: */*\r\nContent-Length: 0\r\n\r\n",
+		"timestamp": 1671487218855
+	},
+	{
+		"name": "Text",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1671487218871
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/1.1 400 Bad Request\r\n",
+		"timestamp": 1671487218871
+	},
+	{
+		"name": "HeaderIn",
+		"value": "X-Powered-By: Express\r\n",
+		"timestamp": 1671487218871
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Access-Control-Allow-Origin: http://localhost:8080\r\n",
+		"timestamp": 1671487218871
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Vary: Origin\r\n",
+		"timestamp": 1671487218871
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1671487218871
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Length: 210\r\n",
+		"timestamp": 1671487218871
+	},
+	{
+		"name": "HeaderIn",
+		"value": "ETag: W/\"d2-fEpVCxRTcXAxnHz1Vo/tzP4z6KM\"\r\n",
+		"timestamp": 1671487218871
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Date: Mon, 19 Dec 2022 22:00:18 GMT\r\n",
+		"timestamp": 1671487218871
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1671487218871
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Keep-Alive: timeout=5\r\n",
+		"timestamp": 1671487218871
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1671487218871
+	},
+	{
+		"name": "Text",
+		"value": "Received 210 B chunk",
+		"timestamp": 1671487218871
+	},
+	{
+		"name": "Text",
+		"value": "Connection #0 to host localhost left intact\n",
+		"timestamp": 1671487218871
+	}
+]

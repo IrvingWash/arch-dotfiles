@@ -1,0 +1,82 @@
+[
+	{
+		"value": "Preparing request to http://localhost:3333/api/games/1",
+		"name": "Text",
+		"timestamp": 1671488081815
+	},
+	{
+		"value": "Current time is 2022-12-19T22:14:41.815Z",
+		"name": "Text",
+		"timestamp": 1671488081815
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1671488081815
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1671488081817
+	},
+	{
+		"value": "Enable timeout of 30000ms",
+		"name": "Text",
+		"timestamp": 1671488081817
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1671488081817
+	},
+	{
+		"name": "Text",
+		"value": "Too old connection (363 seconds), disconnect it\n",
+		"timestamp": 1671488081817
+	},
+	{
+		"name": "Text",
+		"value": "Connection 5 seems to be dead!\n",
+		"timestamp": 1671488081817
+	},
+	{
+		"name": "Text",
+		"value": "Closing connection 5\n",
+		"timestamp": 1671488081817
+	},
+	{
+		"name": "Text",
+		"value": "Hostname in DNS cache was stale, zapped\n",
+		"timestamp": 1671488081817
+	},
+	{
+		"name": "Text",
+		"value": "  Trying 127.0.0.1:3333...\n",
+		"timestamp": 1671488081817
+	},
+	{
+		"name": "Text",
+		"value": "connect to 127.0.0.1 port 3333 failed: Connection refused\n",
+		"timestamp": 1671488081818
+	},
+	{
+		"name": "Text",
+		"value": "  Trying ::1:3333...\n",
+		"timestamp": 1671488081818
+	},
+	{
+		"name": "Text",
+		"value": "connect to ::1 port 3333 failed: Connection refused\n",
+		"timestamp": 1671488081818
+	},
+	{
+		"name": "Text",
+		"value": "Failed to connect to localhost port 3333 after 0 ms: Connection refused\n",
+		"timestamp": 1671488081818
+	},
+	{
+		"name": "Text",
+		"value": "Closing connection 6\n",
+		"timestamp": 1671488081818
+	}
+]

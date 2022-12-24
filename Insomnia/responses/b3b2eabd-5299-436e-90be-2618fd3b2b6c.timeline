@@ -1,0 +1,137 @@
+[
+	{
+		"value": "Preparing request to http://localhost:3333/api/games",
+		"name": "Text",
+		"timestamp": 1671487301519
+	},
+	{
+		"value": "Current time is 2022-12-19T22:01:41.519Z",
+		"name": "Text",
+		"timestamp": 1671487301519
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1671487301519
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1671487301522
+	},
+	{
+		"value": "Enable timeout of 30000ms",
+		"name": "Text",
+		"timestamp": 1671487301522
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1671487301522
+	},
+	{
+		"name": "Text",
+		"value": "Connection 0 seems to be dead!\n",
+		"timestamp": 1671487301522
+	},
+	{
+		"name": "Text",
+		"value": "Closing connection 0\n",
+		"timestamp": 1671487301522
+	},
+	{
+		"name": "Text",
+		"value": "Hostname in DNS cache was stale, zapped\n",
+		"timestamp": 1671487301522
+	},
+	{
+		"name": "Text",
+		"value": "  Trying 127.0.0.1:3333...\n",
+		"timestamp": 1671487301522
+	},
+	{
+		"name": "Text",
+		"value": "Connected to localhost (127.0.0.1) port 3333 (#1)\n",
+		"timestamp": 1671487301522
+	},
+	{
+		"name": "HeaderOut",
+		"value": "POST /api/games HTTP/1.1\r\nHost: localhost:3333\r\nUser-Agent: insomnia/2022.7.0\r\nContent-Type: application/json\r\nAccept: */*\r\nContent-Length: 170\r\n\r\n",
+		"timestamp": 1671487301522
+	},
+	{
+		"name": "DataOut",
+		"value": "{\n\t\"title\": \"Dark Sould\",\n\t\"releaseYear\": 2011,\n\t\"developers\": [\"FROM SOFTWARE\"],\n\t\"publishers\": [\"BANDAI NAMCO ENTERTAINMENT\"],\n\t\"platforms\": [\"PC\", \"PS3\", \"XBox 360\"]\n}",
+		"timestamp": 1671487301522
+	},
+	{
+		"name": "Text",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1671487301553
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/1.1 201 Created\r\n",
+		"timestamp": 1671487301553
+	},
+	{
+		"name": "HeaderIn",
+		"value": "X-Powered-By: Express\r\n",
+		"timestamp": 1671487301553
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Access-Control-Allow-Origin: http://localhost:8080\r\n",
+		"timestamp": 1671487301553
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Vary: Origin\r\n",
+		"timestamp": 1671487301553
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1671487301553
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Length: 159\r\n",
+		"timestamp": 1671487301553
+	},
+	{
+		"name": "HeaderIn",
+		"value": "ETag: W/\"9f-OAyagqQyf6xWxzmluyw7RHjLwtA\"\r\n",
+		"timestamp": 1671487301553
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Date: Mon, 19 Dec 2022 22:01:41 GMT\r\n",
+		"timestamp": 1671487301553
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1671487301553
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Keep-Alive: timeout=5\r\n",
+		"timestamp": 1671487301553
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1671487301553
+	},
+	{
+		"name": "Text",
+		"value": "Received 159 B chunk",
+		"timestamp": 1671487301553
+	},
+	{
+		"name": "Text",
+		"value": "Connection #1 to host localhost left intact\n",
+		"timestamp": 1671487301553
+	}
+]

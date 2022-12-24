@@ -1,0 +1,132 @@
+[
+	{
+		"value": "Preparing request to http://localhost:3333/api/games/1",
+		"name": "Text",
+		"timestamp": 1671487631458
+	},
+	{
+		"value": "Current time is 2022-12-19T22:07:11.458Z",
+		"name": "Text",
+		"timestamp": 1671487631458
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1671487631458
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1671487631460
+	},
+	{
+		"value": "Enable timeout of 30000ms",
+		"name": "Text",
+		"timestamp": 1671487631460
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1671487631460
+	},
+	{
+		"name": "Text",
+		"value": "Found bundle for host localhost: 0x42403237cc0 [serially]\n",
+		"timestamp": 1671487631460
+	},
+	{
+		"name": "Text",
+		"value": "Can not multiplex, even if we wanted to!\n",
+		"timestamp": 1671487631460
+	},
+	{
+		"name": "Text",
+		"value": "Re-using existing connection! (#4) with host localhost\n",
+		"timestamp": 1671487631460
+	},
+	{
+		"name": "Text",
+		"value": "Connected to localhost (127.0.0.1) port 3333 (#4)\n",
+		"timestamp": 1671487631460
+	},
+	{
+		"name": "HeaderOut",
+		"value": "PATCH /api/games/1 HTTP/1.1\r\nHost: localhost:3333\r\nUser-Agent: insomnia/2022.7.0\r\nContent-Type: application/json\r\nAccept: */*\r\nContent-Length: 26\r\n\r\n",
+		"timestamp": 1671487631461
+	},
+	{
+		"name": "DataOut",
+		"value": "{\n\t\"title\": \"Dark Souls\"\n}",
+		"timestamp": 1671487631461
+	},
+	{
+		"name": "Text",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1671487631477
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/1.1 400 Bad Request\r\n",
+		"timestamp": 1671487631477
+	},
+	{
+		"name": "HeaderIn",
+		"value": "X-Powered-By: Express\r\n",
+		"timestamp": 1671487631477
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Access-Control-Allow-Origin: http://localhost:8080\r\n",
+		"timestamp": 1671487631477
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Vary: Origin\r\n",
+		"timestamp": 1671487631477
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1671487631477
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Length: 157\r\n",
+		"timestamp": 1671487631477
+	},
+	{
+		"name": "HeaderIn",
+		"value": "ETag: W/\"9d-QaaoQX1gFao/UcRR5IiL5DIbdn0\"\r\n",
+		"timestamp": 1671487631477
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Date: Mon, 19 Dec 2022 22:07:11 GMT\r\n",
+		"timestamp": 1671487631477
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1671487631477
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Keep-Alive: timeout=5\r\n",
+		"timestamp": 1671487631477
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1671487631477
+	},
+	{
+		"name": "Text",
+		"value": "Received 157 B chunk",
+		"timestamp": 1671487631477
+	},
+	{
+		"name": "Text",
+		"value": "Connection #4 to host localhost left intact\n",
+		"timestamp": 1671487631477
+	}
+]

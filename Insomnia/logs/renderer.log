@@ -1,0 +1,15 @@
+[2022-12-21 22:06:56.815] [info]  [db] Initialized DB client
+[2022-12-21 22:06:56.907] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2022-12-21 22:06:56.910] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2022-12-21 22:06:57.179] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2022-12-21 22:06:57.420] [info]  [FileSystemDriver] Initialized in "/home/irvingwash/.config/Insomnia/version-control"
+[2022-12-21 22:06:57.421] [info]  [sync] checking for collections which need to be moved into a remote project
+[2022-12-21 22:06:57.424] [info]  [FileSystemDriver] Initialized in "/home/irvingwash/.config/Insomnia/version-control"
+[2022-12-21 22:07:01.862] [info]  [network] Sending req=req_36da942f2c2f4ec192efa8b9bf376e53 env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-21 22:07:01.970] [info]  [network] Response failed req=req_36da942f2c2f4ec192efa8b9bf376e53 err=Error: Couldn't connect to server
+[2022-12-21 22:08:38.275] [info]  [network] Sending req=req_36da942f2c2f4ec192efa8b9bf376e53 env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-21 22:08:38.369] [info]  [network] Response succeeded req=req_36da942f2c2f4ec192efa8b9bf376e53 status=200
+[2022-12-21 22:09:19.549] [info]  [network] Sending req=req_de62ef5cc2634b5d9f3dc66b7a38f52d env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-21 22:09:19.649] [info]  [network] Response succeeded req=req_de62ef5cc2634b5d9f3dc66b7a38f52d status=201
+[2022-12-21 22:09:23.725] [info]  [network] Sending req=req_36da942f2c2f4ec192efa8b9bf376e53 env=env_67f0a20f2539435c8b959a7de00a4b9a
+[2022-12-21 22:09:23.809] [info]  [network] Response succeeded req=req_36da942f2c2f4ec192efa8b9bf376e53 status=200

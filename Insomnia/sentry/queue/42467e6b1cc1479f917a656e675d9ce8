@@ -1,0 +1,3 @@
+{"sent_at":"2022-12-19T22:24:50.066Z","sdk":{"name":"sentry.javascript.electron","version":"3.0.7"}}
+{"type":"session"}
+{"sid":"fdce1d83f7ba4af2b7df8125ecb6582a","init":true,"started":"2022-12-19T21:58:18.674Z","timestamp":"2022-12-19T22:24:50.066Z","status":"exited","errors":0,"duration":1591.3919231891632,"attrs":{"release":"2022.7.0","environment":"production"}}
