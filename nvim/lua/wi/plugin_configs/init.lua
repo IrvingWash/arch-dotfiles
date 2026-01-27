@@ -1,2 +1,6 @@
 require("wi.plugin_configs.conform")
 require("wi.plugin_configs.gitsigns")
+require("wi.plugin_configs.nvim_cmp")
+require("wi.plugin_configs.lspconfig")
+require("wi.plugin_configs.nvim_telescope")
+require("wi.plugin_configs.nvim_yazi")
