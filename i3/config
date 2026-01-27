@@ -1,0 +1,106 @@
+include ./styles.conf
+
+set $mod Mod4
+
+font pango:monospace 8 # @Todo change font
+
+# Stuff
+exec --no-startup-id dex --autostart --environment i3
+# Network Manager
+exec --no-startup-id nm-applet
+
+# Keyboard layout
+exec_always --no-startup-id "setxkbmap -layout us,ru -variant colemak_dh_ortho, -option 'grp:win_space_toggle'"
+
+# Modifiers
+floating_modifier $mod
+tiling_drag modifier titlebar
+
+# Bindings
+bindsym $mod+Return exec ghostty
+bindsym $mod+d exec --no-startup-id "rofi -modi drun,run -show drun"
+bindsym $mod+q kill
+# Focus
+bindsym $mod+m focus left
+bindsym $mod+n focus down
+bindsym $mod+e focus up
+bindsym $mod+i focus right
+# Move focused window
+bindsym $mod+Shift+m move left
+bindsym $mod+Shift+n move down
+bindsym $mod+Shift+e move up
+bindsym $mod+Shift+i move right
+# Change split direction
+bindsym $mod+h split h
+bindsym $mod+v split v
+# Enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+# change container layout
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+t layout toggle split
+# Toggle tiling / floating
+bindsym $mod+z floating toggle
+# Change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+# Focus the parent container
+bindsym $mod+a focus parent
+
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+# Switch to workspace
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
+# Move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10
+
+# Reload the configuration file
+bindsym $mod+Shift+c reload
+# Restart i3 inplace
+bindsym $mod+Shift+r restart
+# Exit i3
+bindsym $mod+Shift+x exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+# Resize window
+bindsym $mod+r mode "resize"
+mode "resize" {
+    bindsym shift+m resize shrink width 10 px or 10 ppt
+    bindsym shift+n resize grow height 10 px or 10 ppt
+    bindsym shift+e resize shrink height 10 px or 10 ppt
+    bindsym shift+i resize grow width 10 px or 10 ppt
+    
+    # Back to normal
+    bindsym Escape mode "default"
+    bindsym $mod+r mode "default"
+}
+
+# Gaps
+gaps inner 5
+gaps outer 0
