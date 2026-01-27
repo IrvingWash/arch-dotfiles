@@ -3,6 +3,7 @@ set -gx EDITOR nvim
 
 # PATH
 fish_add_path ~/Apps/jai/bin
+fish_add_path ~/Apps/Jails
 
 # Enable vi mode
 fish_vi_key_bindings
