@@ -2,7 +2,7 @@ include ./styles.conf
 
 set $mod Mod4
 
-font pango:monospace 8 # @Todo change font
+font pango:Iosevka Nerd Font 10
 
 # Stuff
 exec --no-startup-id dex --autostart --environment i3
@@ -104,3 +104,18 @@ mode "resize" {
 # Gaps
 gaps inner 5
 gaps outer 0
+
+# Bar
+bar {
+    status_command i3status-rs
+    position bottom
+    colors {
+        separator #666666
+        background #222222
+        statusline #dddddd
+        focused_workspace #0088CC #0088CC #ffffff
+        active_workspace #333333 #333333 #ffffff
+        inactive_workspace #333333 #333333 #888888
+        urgent_workspace #2f343a #900000 #ffffff
+    }
+}
