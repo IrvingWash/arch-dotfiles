@@ -1,4 +1,5 @@
 set $mod Mod4
+focus_follows_mouse no
 
 font pango:Iosevka Nerd Font 12
 
@@ -6,8 +7,10 @@ font pango:Iosevka Nerd Font 12
 exec --no-startup-id dex --autostart --environment i3
 # Network Manager
 exec --no-startup-id nm-applet
-#Compositor
+# Compositor
 exec --no-startup-id picom
+# Dunst
+exec --no-statup-id dunst
 
 # Keyboard layout
 exec_always --no-startup-id "setxkbmap -layout us,ru -variant colemak_dh_ortho, -option 'grp:win_space_toggle'"
