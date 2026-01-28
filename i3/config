@@ -11,6 +11,8 @@ exec --no-startup-id nm-applet
 exec --no-startup-id picom
 # Dunst
 exec --no-statup-id dunst
+# Flameshot
+exec --no-startup-id flameshot
 
 # Keyboard layout
 exec_always --no-startup-id "setxkbmap -layout us,ru -variant colemak_dh_ortho, -option 'grp:win_space_toggle'"
@@ -125,3 +127,12 @@ bar {
         urgent_workspace #2f343a #900000 #ffffff
     }
 }
+
+# Special keys
+# Sound control
+bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer -i 5
+bindsym XF86AudioLowerVolume exec --no-startup-id pamixer -d 5
+bindsym XF86AudioMute exec --no-startup-id pamixer -t
+# Brightness control
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
