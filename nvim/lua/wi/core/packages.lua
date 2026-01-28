@@ -95,6 +95,8 @@ local telescope_live_grep_args = {
 
 local vim_easy_align = "junegunn/vim-easy-align"
 
+local nvim_web_dev_icons = { "nvim-tree/nvim-web-devicons", opts = {} }
+
 require("lazy").setup({
     checker = { enabled = false },
     spec = {
@@ -112,5 +114,6 @@ require("lazy").setup({
         nvim_colorizer,
         telescope_live_grep_args,
         vim_easy_align,
+        nvim_web_dev_icons,
     },
 })
