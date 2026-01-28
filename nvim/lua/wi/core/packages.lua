@@ -28,6 +28,8 @@ local mason = {
     opts = {},
 }
 
+local jai = "rluba/jai.vim"
+
 local yazi = {
     "mikavilpas/yazi.nvim",
     event = "VeryLazy",
@@ -101,6 +103,7 @@ require("lazy").setup({
     checker = { enabled = false },
     spec = {
         mason,
+        jai,
         yazi,
         catppuccin,
         nvim_treesitter,
