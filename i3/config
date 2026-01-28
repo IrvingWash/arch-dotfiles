@@ -10,7 +10,7 @@ exec --no-startup-id nm-applet
 # Compositor
 exec --no-startup-id picom
 # Dunst
-exec --no-statup-id dunst
+exec --no-startup-id dunst
 # Flameshot
 exec --no-startup-id flameshot
 # Asus stuff
