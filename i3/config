@@ -12,6 +12,9 @@ exec --no-startup-id picom
 # Keyboard layout
 exec_always --no-startup-id "setxkbmap -layout us,ru -variant colemak_dh_ortho, -option 'grp:win_space_toggle'"
 
+# BG
+exec --no-startup-id ~/.fehbg
+
 # Modifiers
 floating_modifier $mod
 tiling_drag modifier titlebar
