@@ -6,7 +6,7 @@ yazi.setup({
         mode = { "n", "v" },
         "<cmd>Yazi<cr>",
     },
-    open_for_directories = true,
+    open_for_directories = false,
 })
 
 vim.keymap.set("n", "<leader>nb", "<cmd>Yazi<CR>")
