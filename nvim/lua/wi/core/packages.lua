@@ -99,6 +99,11 @@ local vim_easy_align = "junegunn/vim-easy-align"
 
 local nvim_web_dev_icons = { "nvim-tree/nvim-web-devicons", opts = {} }
 
+local lsp_signature = {
+    "ray-x/lsp_signature.nvim",
+    event = "VeryLazy",
+}
+
 require("lazy").setup({
     checker = { enabled = false },
     spec = {
@@ -118,5 +123,6 @@ require("lazy").setup({
         telescope_live_grep_args,
         vim_easy_align,
         nvim_web_dev_icons,
+        lsp_signature,
     },
 })
