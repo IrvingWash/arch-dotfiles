@@ -29,5 +29,3 @@ end
 lspconfig.jails.setup({
     capabilities = capabilities,
 })
-vim.lsp.config("jails", { capabilities = capabilities })
-vim.lsp.enable("jails")

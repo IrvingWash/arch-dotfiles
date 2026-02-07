@@ -1,6 +1,9 @@
 set fish_greeting
 set -gx EDITOR nvim
 
+export VISUAL=nvim
+export EDITOR=nvim
+
 # PATH
 fish_add_path ~/Apps/jai/bin
 fish_add_path ~/Apps/Jails
