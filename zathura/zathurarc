@@ -1,0 +1,10 @@
+map m scroll partial-left
+map n scroll partial-down
+map e scroll partial-up
+map i scroll partial-right
+
+map N scroll full-down
+map E scroll full-up
+
+map zt scroll page-top
+map zb scroll page-bottom
