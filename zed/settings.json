@@ -12,23 +12,23 @@
   "agent": {
     "button": false,
     "favorite_models": [],
-    "model_parameters": []
+    "model_parameters": [],
   },
   "collaboration_panel": {
-    "button": false
+    "button": false,
   },
   "notification_panel": {
-    "button": false
+    "button": false,
   },
   "window_decorations": "client",
   "preview_tabs": {
-    "enabled": false
+    "enabled": false,
   },
   "tabs": {
     "show_close_button": "hidden",
     "show_diagnostics": "all",
     "file_icons": true,
-    "git_status": true
+    "git_status": true,
   },
   "title_bar": {
     "show_menus": false,
@@ -38,48 +38,48 @@
     "show_onboarding_banner": false,
     "show_project_items": true,
     "show_branch_name": true,
-    "show_branch_icon": true
+    "show_branch_icon": true,
   },
   "debugger": {
-    "button": true
+    "button": true,
   },
   "search": {
-    "button": true
+    "button": true,
   },
   "diagnostics": {
-    "button": true
+    "button": true,
   },
   "terminal": {
-    "button": true
+    "button": true,
   },
   "status_bar": {
     "cursor_position_button": true,
-    "active_language_button": true
+    "active_language_button": true,
   },
   "project_panel": {
     "starts_open": false,
-    "button": true
+    "button": true,
   },
   "vim": {
     "use_smartcase_find": true,
-    "toggle_relative_line_numbers": true
+    "toggle_relative_line_numbers": true,
   },
   "toolbar": {
-    "agent_review": false
+    "agent_review": false,
   },
   "relative_line_numbers": "enabled",
   "sticky_scroll": {
-    "enabled": true
+    "enabled": true,
   },
   "hide_mouse": "never",
   "auto_update": false,
   "restore_on_startup": "last_workspace",
   "session": {
-    "restore_unsaved_buffers": false
+    "restore_unsaved_buffers": false,
   },
   "vim_mode": true,
   "icon_theme": "Zed (Default)",
-  "ui_font_size": 16,
-  "buffer_font_size": 15,
+  "ui_font_size": 12.0,
+  "buffer_font_size": 10.0,
   "theme": "Gruvbox Light",
 }
