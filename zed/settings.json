@@ -78,8 +78,8 @@
     "restore_unsaved_buffers": false,
   },
   "vim_mode": true,
-  "icon_theme": "Zed (Default)",
+  "icon_theme": "Catppuccin Frappé",
   "ui_font_size": 12.0,
   "buffer_font_size": 10.0,
-  "theme": "Ayu Light",
+  "theme": "Catppuccin Latte (Blur) [Heavy]",
 }

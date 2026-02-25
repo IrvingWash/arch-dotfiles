@@ -104,6 +104,15 @@ local lsp_signature = {
     event = "VeryLazy",
 }
 
+local compile_mode = {
+    "ej-shafran/compile-mode.nvim",
+    branch = "latest",
+    dependencies = {
+        "nvim-lua/plenary.nvim",
+        { "m00qek/baleia.nvim" },
+    },
+}
+
 require("lazy").setup({
     checker = { enabled = false },
     spec = {
@@ -124,5 +133,6 @@ require("lazy").setup({
         vim_easy_align,
         nvim_web_dev_icons,
         lsp_signature,
+        compile_mode,
     },
 })
