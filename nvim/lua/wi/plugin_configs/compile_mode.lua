@@ -1,7 +1,7 @@
 ---@module "compile-mode"
 ---@type CompileModeOpts
 vim.g.compile_mode = {
-    default_command = "pwd",
+    default_command = "",
     baleia_setup = true,
     bang_expansion = false,
     error_regexp_table = {},
@@ -26,3 +26,7 @@ vim.g.compile_mode = {
     debug = false,
     use_pseudo_terminal = false,
 }
+
+vim.keymap.set("n", "<leader>c", function()
+    require("compile-mode").compile()
+end, { desc = "Compile" })
