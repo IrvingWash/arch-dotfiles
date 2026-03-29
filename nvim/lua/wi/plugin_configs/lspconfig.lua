@@ -34,6 +34,9 @@ vim.lsp.config("rust_analyzer", {
 })
 vim.lsp.enable("rust_analyzer")
 
+vim.lsp.config("clangd", { capabilities = capabilities })
+vim.lsp.enable("clangd")
+
 if not configs.jails then
     configs.jails = {
         default_config = {

@@ -4,6 +4,8 @@ set -gx EDITOR nvim
 export VISUAL=nvim
 export EDITOR=nvim
 
+bash ~/Apps/vulkansdk/default/setup-env.sh
+
 # PATH
 fish_add_path ~/Apps/jai/bin
 fish_add_path ~/Apps/Jails
