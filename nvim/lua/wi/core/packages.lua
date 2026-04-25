@@ -86,8 +86,6 @@ local git_signs = "lewis6991/gitsigns.nvim"
 
 local vim_illuminate = "RRethy/vim-illuminate"
 
-local diffview = "sindrets/diffview.nvim"
-
 local nvim_colorizer = "norcalli/nvim-colorizer.lua"
 
 local telescope_live_grep_args = {
@@ -113,6 +111,11 @@ local compile_mode = {
     },
 }
 
+local codediff = {
+    "esmuellert/codediff.nvim",
+    cmd = "CodeDiff",
+}
+
 require("lazy").setup({
     checker = { enabled = false },
     spec = {
@@ -127,12 +130,12 @@ require("lazy").setup({
         nvim_telescope,
         git_signs,
         vim_illuminate,
-        diffview,
         nvim_colorizer,
         telescope_live_grep_args,
         vim_easy_align,
         nvim_web_dev_icons,
         lsp_signature,
         compile_mode,
+        codediff,
     },
 })
