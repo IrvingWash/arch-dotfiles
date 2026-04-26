@@ -116,6 +116,15 @@ local codediff = {
     cmd = "CodeDiff",
 }
 
+local oil = {
+    "stevearc/oil.nvim",
+    ---@module 'oil'
+    ---@type oil.SetupOpts
+    opts = {},
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    lazy = false,
+}
+
 require("lazy").setup({
     checker = { enabled = false },
     spec = {
@@ -137,5 +146,6 @@ require("lazy").setup({
         lsp_signature,
         compile_mode,
         codediff,
+        oil,
     },
 })
