@@ -125,6 +125,12 @@ local oil = {
     lazy = false,
 }
 
+local naysayer = {
+    "RostislavArts/naysayer.nvim",
+    priority = 1000,
+    lazy = false,
+}
+
 require("lazy").setup({
     checker = { enabled = false },
     spec = {
@@ -147,5 +153,6 @@ require("lazy").setup({
         compile_mode,
         codediff,
         oil,
+        naysayer,
     },
 })

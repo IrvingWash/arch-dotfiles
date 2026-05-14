@@ -7,15 +7,23 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "outline_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
   "buffer_line_height": "standard",
   "show_whitespaces": "all",
   "disable_ai": true,
   "agent": {
+    "dock": "right",
     "button": false,
     "favorite_models": [],
     "model_parameters": [],
   },
   "collaboration_panel": {
+    "dock": "left",
     "button": false,
   },
   "notification_panel": {
@@ -58,6 +66,7 @@
     "active_language_button": true,
   },
   "project_panel": {
+    "dock": "left",
     "starts_open": false,
     "button": true,
   },
