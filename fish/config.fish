@@ -7,6 +7,8 @@ export EDITOR=nvim
 # PATH
 fish_add_path ~/Apps/jai/bin
 fish_add_path ~/Apps/Jails
+fish_add_path ~/Apps
+fish_add_path ~/Apps/vulkan_sdk/x86_64/bin
 
 # Enable vi mode
 fish_vi_key_bindings
