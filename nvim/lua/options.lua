@@ -1,3 +1,5 @@
+require('vim._core.ui2').enable()
+
 local opt = vim.opt
 
 opt.termguicolors = true
@@ -52,6 +54,8 @@ opt.spell = true
 opt.spelllang = "en_us"
 
 opt.errorbells = false
+
+opt.foldlevelstart = 99
 
 local function disable_builtins()
     local builtins = {
