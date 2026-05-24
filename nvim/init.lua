@@ -1,1 +1,12 @@
-require("wi")
+require("packages")
+require("options")
+require("colorscheme")
+require("keymaps")
+require("auto_commands")
+
+require("plugin_configs.yazi")
+require("plugin_configs.fzf")
+require("plugin_configs.mini_cursorword")
+require("plugin_configs.mini_surround")
+require("plugin_configs.mini_align")
+require("plugin_configs.gitsigns")
