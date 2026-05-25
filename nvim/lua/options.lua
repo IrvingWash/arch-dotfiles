@@ -50,9 +50,6 @@ opt.listchars = {
 opt.splitbelow = true
 opt.splitright = true
 
-opt.spell = true
-opt.spelllang = "en_us"
-
 opt.errorbells = false
 
 opt.foldlevelstart = 99

@@ -1,0 +1,19 @@
+vim.keymap.set("n", "<leader>x",  vim.diagnostic.open_float,                                 { desc = "Show diagnostics" })
+vim.keymap.set("n", "<leader>nx", vim.diagnostic.goto_next,                                  { desc = "Jump to next diagnostics" })
+vim.keymap.set("n", "gd",         vim.lsp.buf.definition,                                    { desc = "Go to definition" })
+vim.keymap.set("n", "gsd",        function() vim.cmd.vsplit(); vim.lsp.buf.definition() end, { desc = "Go to definition in a split"} )
+vim.keymap.set("n", "gh",         vim.lsp.buf.hover,                                         { desc = "Toggle hover" })
+vim.keymap.set("n", "<leader>rr", vim.lsp.buf.rename,                                        { desc = "Rename symbol" })
+vim.keymap.set("n", "<leader>fx", vim.lsp.buf.code_action,                                   { desc = "Toggle code actions" })
+
+vim.lsp.config("jails", {
+    cmd = { "jails", "-jai_path", vim.fn.expand("~/Apps/jai"), "-jai_exe_name", "jai" },
+    filetypes = { "jai" },
+    root_markers = { ".git", "build.jai", "jails.json" },
+})
+
+vim.lsp.enable({
+    "jails",
+    "clangd",
+    "lua_ls",
+})
