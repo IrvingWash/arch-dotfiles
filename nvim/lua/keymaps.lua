@@ -22,3 +22,5 @@ set_keymap("v", ">", ">gv", { desc = "Indent right and reselect" })
 set_keymap("v", "<", "<gv", { desc = "Indent left and reselect" })
 
 set_keymap({ "n", "v" }, "<C-g>", "1<C-g>", { desc = "Show absolute file path"})
+
+set_keymap({ "n", "v" }, "<leader>cc", ":split | term ", { desc = "Run command" })
