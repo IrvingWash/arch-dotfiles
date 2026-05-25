@@ -1,5 +1,5 @@
 vim.keymap.set("n", "<leader>x",  vim.diagnostic.open_float,                                 { desc = "Show diagnostics" })
-vim.keymap.set("n", "<leader>nx", vim.diagnostic.goto_next,                                  { desc = "Jump to next diagnostics" })
+vim.keymap.set("n", "<leader>nx", function() vim.diagnostic.jump({ count = 1 }) end,         { desc = "Jump to next diagnostics" })
 vim.keymap.set("n", "gd",         vim.lsp.buf.definition,                                    { desc = "Go to definition" })
 vim.keymap.set("n", "gsd",        function() vim.cmd.vsplit(); vim.lsp.buf.definition() end, { desc = "Go to definition in a split"} )
 vim.keymap.set("n", "gh",         vim.lsp.buf.hover,                                         { desc = "Toggle hover" })
