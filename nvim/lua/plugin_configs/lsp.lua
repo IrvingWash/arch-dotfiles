@@ -16,4 +16,5 @@ vim.lsp.enable({
     "jails",
     "clangd",
     "lua_ls",
+    "slangd",
 })
