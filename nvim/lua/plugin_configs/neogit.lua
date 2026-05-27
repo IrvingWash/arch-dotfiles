@@ -1,7 +1,7 @@
 require("neogit").setup({
   treesitter_diff_highlight = true,
   word_diff_highlight = true,
-  disable_hint = false,
+  disable_hint = true,
   disable_context_highlighting = false,
   disable_signs = false,
   git_executable = "git",
