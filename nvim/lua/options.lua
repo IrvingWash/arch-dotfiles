@@ -1,6 +1,10 @@
+vim.loader.enable();
 require('vim._core.ui2').enable()
+vim.g.have_nerd_font = true
 
 local opt = vim.opt
+
+opt.breakindent = true
 
 opt.termguicolors = true
 opt.mouse         = "a"
