@@ -1,4 +1,4 @@
-vim.pack.add({
+local packages = {
     "https://github.com/mikavilpas/yazi.nvim",
     "https://github.com/ibhagwan/fzf-lua",
     "https://github.com/nvim-mini/mini.cursorword",
@@ -24,4 +24,15 @@ vim.pack.add({
     "https://github.com/saghen/blink.lib", -- for blink.cmp
     "https://github.com/nvim-lua/plenary.nvim",
     "https://github.com/nvim-tree/nvim-web-devicons",
-})
+}
+
+vim.pack.add(packages)
+
+-- vim.pack.update()
+vim.api.nvim_create_user_command(
+    "PackUpdate",
+    function()
+        vim.pack.update()
+    end,
+    { desc = "Update all plugins" }
+)
