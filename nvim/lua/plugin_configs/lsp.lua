@@ -17,4 +17,6 @@ vim.lsp.enable({
     "clangd",
     "lua_ls",
     "slangd",
+    "rust_analyzer",
+    "zls",
 })
