@@ -15,6 +15,8 @@ exec --no-startup-id dunst
 exec --no-startup-id flameshot
 # Asus stuff
 exec --no-startup-id "sudo systemctl start asusd"
+# Auto lock
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # Keyboard layout
 exec_always --no-startup-id "setxkbmap -layout us,ru -variant colemak_dh_ortho, -option 'grp:win_space_toggle'"
