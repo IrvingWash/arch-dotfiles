@@ -26,6 +26,9 @@ exec --no-startup-id ~/.fehbg
 floating_modifier $mod
 tiling_drag modifier titlebar
 
+# Lock
+bindsym $mod+Shift+l exec i3lock -c 000000
+
 # Bindings
 bindsym $mod+Return exec ghostty
 bindsym $mod+d exec --no-startup-id "rofi -modi drun,run -show drun"

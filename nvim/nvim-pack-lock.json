@@ -24,6 +24,10 @@
       "rev": "29b06f37251f2e010f53a0892573b2ec03d165e2",
       "src": "https://github.com/esmuellert/codediff.nvim"
     },
+    "deepwater.nvim": {
+      "rev": "6f1b945098c497bd7249e3f7ad37f5d0443f5463",
+      "src": "https://github.com/dgrco/deepwater.nvim"
+    },
     "fzf-lua": {
       "rev": "fea9eedc6894c44d44cbb772a5cd11c93b82d7a1",
       "src": "https://github.com/ibhagwan/fzf-lua"

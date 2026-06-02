@@ -13,7 +13,7 @@ vim.lsp.config("jails", {
 })
 
 vim.lsp.enable({
-    "jails",
+    -- "jails",
     "clangd",
     "lua_ls",
     "slangd",

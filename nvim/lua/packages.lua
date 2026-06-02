@@ -18,7 +18,8 @@ local packages = {
     },
     -- Themes
     "https://github.com/ficd0/ashen.nvim",
-   { src = "https://github.com/catppuccin/nvim", name = "catppuccin" },
+    { src = "https://github.com/catppuccin/nvim", name = "catppuccin" },
+    "https://github.com/dgrco/deepwater.nvim",
     -- Dependencies which are not used directly
     "https://github.com/m00qek/baleia.nvim", -- for neogit
     "https://github.com/saghen/blink.lib", -- for blink.cmp
