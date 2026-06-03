@@ -11,6 +11,7 @@ local packages = {
     "https://github.com/saghen/blink.cmp",
     "https://github.com/esmuellert/codediff.nvim",
     "https://github.com/NeogitOrg/neogit",
+    "https://github.com/johmsalas/text-case.nvim",
     {
         src = "https://github.com/nvim-treesitter/nvim-treesitter",
         branch = "main",
