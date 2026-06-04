@@ -1,7 +1,7 @@
 function fish_prompt
     set -l last_status $status
     set -l normal (set_color normal)
-    set -l light (set_color BBBBBB)
+    set -l light (set_color EF9F76)
     set -l suffix '❯'
 
     set -l prompt_status ''
