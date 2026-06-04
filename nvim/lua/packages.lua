@@ -13,6 +13,7 @@ local packages = {
     "https://github.com/NeogitOrg/neogit",
     "https://github.com/IrvingWash/text-case.nvim",
     "https://github.com/stevearc/oil.nvim",
+    "https://github.com/nvim-lualine/lualine.nvim",
     {
         src = "https://github.com/nvim-treesitter/nvim-treesitter",
         branch = "main",

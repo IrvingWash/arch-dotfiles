@@ -57,6 +57,7 @@ opt.splitright = true
 opt.errorbells = false
 
 opt.foldlevelstart = 99
+opt.showmode = false
 
 local function disable_builtins()
     local builtins = {
