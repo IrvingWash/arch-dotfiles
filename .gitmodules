@@ -1,0 +1,3 @@
+[submodule "emacs/jai-mode"]
+	path = emacs/jai-mode
+	url = git@github.com:valignatev/jai-mode.git
