@@ -24,3 +24,15 @@ set_keymap("v", "<", "<gv", { desc = "Indent left and reselect" })
 set_keymap({ "n", "v" }, "<C-g>", "1<C-g>", { desc = "Show absolute file path"})
 
 set_keymap({ "n", "v" }, "<leader>cc", ":split | term ", { desc = "Run command" })
+
+vim.api.nvim_create_autocmd("TermOpen", {
+    callback = function(args)
+        local opts = { buffer = args.buf }
+        vim.keymap.set(
+            "n",
+            "<leader>q",
+            "<cmd>bd!<cr>",
+            vim.tbl_extend("force", opts, { desc = "Delete terminal buffer" })
+        )
+    end,
+})

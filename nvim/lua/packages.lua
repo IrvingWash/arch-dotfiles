@@ -11,7 +11,7 @@ local packages = {
     "https://github.com/saghen/blink.cmp",
     "https://github.com/esmuellert/codediff.nvim",
     "https://github.com/NeogitOrg/neogit",
-    "https://github.com/johmsalas/text-case.nvim",
+    "https://github.com/IrvingWash/text-case.nvim",
     {
         src = "https://github.com/nvim-treesitter/nvim-treesitter",
         branch = "main",
@@ -31,7 +31,6 @@ local packages = {
 
 vim.pack.add(packages)
 
--- vim.pack.update()
 vim.api.nvim_create_user_command(
     "PackUpdate",
     function()

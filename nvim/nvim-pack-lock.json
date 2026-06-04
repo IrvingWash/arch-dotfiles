@@ -5,7 +5,7 @@
       "src": "https://github.com/ficd0/ashen.nvim"
     },
     "baleia.nvim": {
-      "rev": "32617940adb2eea56e85a64883a19961ceac9641",
+      "rev": "710537ff5cd669c5a76c5f5b6a9169fd9b913d18",
       "src": "https://github.com/m00qek/baleia.nvim"
     },
     "black-metal-theme-neovim": {
@@ -13,11 +13,11 @@
       "src": "https://github.com/metalelf0/black-metal-theme-neovim.git"
     },
     "blink.cmp": {
-      "rev": "2d1ba63342a7fe826ca11328bebabba350222cb9",
+      "rev": "d2c4d170ad51e5116da7b19f2426f3b6e318161d",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.lib": {
-      "rev": "2cb62890cee636fe46722d03b7b2331e54fb3755",
+      "rev": "b127d48bf8e9ac9cf41f6e0fbead317503f76558",
       "src": "https://github.com/saghen/blink.lib"
     },
     "catppuccin": {
@@ -33,11 +33,11 @@
       "src": "https://github.com/dgrco/deepwater.nvim"
     },
     "fzf-lua": {
-      "rev": "fea9eedc6894c44d44cbb772a5cd11c93b82d7a1",
+      "rev": "988416cc782dfe28bff3f0da9b8c943b236cd86a",
       "src": "https://github.com/ibhagwan/fzf-lua"
     },
     "gitsigns.nvim": {
-      "rev": "dd3f588bacbeb041be6facf1742e42097f62165d",
+      "rev": "25050e4ed39e628282831d4cbecb1850454ce915",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
     },
     "jai.vim": {
@@ -57,7 +57,7 @@
       "src": "https://github.com/nvim-mini/mini.cursorword"
     },
     "mini.surround": {
-      "rev": "1e37ade260e2b655c3a9b8407ba7e6b0fb995b28",
+      "rev": "d12d8e6ea8e4d9d3e6fb0e3ff11c84fcce2299ac",
       "src": "https://github.com/nvim-mini/mini.surround"
     },
     "neogit": {
@@ -65,7 +65,7 @@
       "src": "https://github.com/NeogitOrg/neogit"
     },
     "nvim-lspconfig": {
-      "rev": "9573948c38bfabeec353ae7dd7d3ffec4c506a6b",
+      "rev": "229b79051b380377664edc4cbd534930154921a1",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
@@ -81,11 +81,11 @@
       "src": "https://github.com/nvim-lua/plenary.nvim"
     },
     "text-case.nvim": {
-      "rev": "e898cfd46fa6cde0e83abb624a16e67d2ffc6457",
-      "src": "https://github.com/johmsalas/text-case.nvim"
+      "rev": "436c69e85fdd6d619537cbe09187a3e09b4c6239",
+      "src": "https://github.com/IrvingWash/text-case.nvim"
     },
     "yazi.nvim": {
-      "rev": "07f3351317c28daefb3cf1bc6ac9846acf13b4d5",
+      "rev": "f3af041ea9f8c8ad3864ec82b082ab2addd2ade4",
       "src": "https://github.com/mikavilpas/yazi.nvim"
     }
   }
