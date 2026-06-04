@@ -126,9 +126,9 @@ bar {
     position bottom
     colors {
         separator #666666
-        background #111111
+        background #303446
         statusline #dddddd
-        focused_workspace #ffffff #111111 #ffffff
+        focused_workspace #ffffff #303446 #ffffff
         active_workspace #333333 #333333 #ffffff
         inactive_workspace #333333 #333333 #888888
         urgent_workspace #2f343a #900000 #ffffff
@@ -146,9 +146,9 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
 # Colors
 # class                 border  backgr. text    indicator child_border
-client.focused          #ffffff #111111 #ffffff #ffffff   #ffffff
+client.focused          #ffffff #303446 #ffffff #ffffff   #ffffff
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
 client.unfocused        #333333 #222222 #888888 #292d2e   #222222
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
-client.placeholder      #111111 #0c0c0c #ffffff #111111   #0c0c0c
+client.placeholder      #303446 #0c0c0c #ffffff #303446   #0c0c0c
 client.background       #ffffff
