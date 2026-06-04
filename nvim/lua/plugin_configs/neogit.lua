@@ -1,3 +1,5 @@
+vim.keymap.set("n", "<leader>ng", "<cmd>Neogit<cr>", { desc = "Open Neogit" })
+
 require("neogit").setup({
   treesitter_diff_highlight = true,
   word_diff_highlight = true,
