@@ -18,6 +18,7 @@ local packages = {
         build = ":TSUpdate",
     },
     -- Themes
+    "https://github.com/metalelf0/black-metal-theme-neovim.git",
     "https://github.com/ficd0/ashen.nvim",
     { src = "https://github.com/catppuccin/nvim", name = "catppuccin" },
     "https://github.com/dgrco/deepwater.nvim",

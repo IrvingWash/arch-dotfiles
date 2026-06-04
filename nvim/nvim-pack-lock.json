@@ -8,6 +8,10 @@
       "rev": "32617940adb2eea56e85a64883a19961ceac9641",
       "src": "https://github.com/m00qek/baleia.nvim"
     },
+    "black-metal-theme-neovim": {
+      "rev": "d7ce1c4b9196b3b34e70ca4fa9af108bb4207818",
+      "src": "https://github.com/metalelf0/black-metal-theme-neovim.git"
+    },
     "blink.cmp": {
       "rev": "2d1ba63342a7fe826ca11328bebabba350222cb9",
       "src": "https://github.com/saghen/blink.cmp"
