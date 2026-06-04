@@ -12,6 +12,7 @@ local packages = {
     "https://github.com/esmuellert/codediff.nvim",
     "https://github.com/NeogitOrg/neogit",
     "https://github.com/IrvingWash/text-case.nvim",
+    "https://github.com/stevearc/oil.nvim",
     {
         src = "https://github.com/nvim-treesitter/nvim-treesitter",
         branch = "main",
