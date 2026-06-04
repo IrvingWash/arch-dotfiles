@@ -2,7 +2,7 @@
 icons = "material-nf"
 
 [theme]
-theme = "plain"
+theme = "space-villain"
 
 [[block]]
 block = "cpu"

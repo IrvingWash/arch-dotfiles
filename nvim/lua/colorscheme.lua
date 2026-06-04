@@ -1,1 +1,1 @@
-vim.cmd.colorscheme("venom")
+vim.cmd.colorscheme("catppuccin-frappe")
