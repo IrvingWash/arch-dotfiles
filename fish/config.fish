@@ -17,3 +17,4 @@ fish_vi_cursor
 # Aliases
 alias ls="eza --color=always --icons=always --classify=always -l -a --group-directories-first --show-symlinks --modified"
 alias tree="eza -T"
+alias neovide="neovide . & disown"

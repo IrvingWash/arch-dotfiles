@@ -53,7 +53,7 @@
       "src": "https://github.com/mason-org/mason.nvim"
     },
     "mini.align": {
-      "rev": "c701192658ddac4e3b20956a964c2b03157b5e51",
+      "rev": "36b0cd9f8b315946849e37f4d0918cf01bb66214",
       "src": "https://github.com/nvim-mini/mini.align"
     },
     "mini.cursorword": {
@@ -61,7 +61,7 @@
       "src": "https://github.com/nvim-mini/mini.cursorword"
     },
     "mini.surround": {
-      "rev": "d12d8e6ea8e4d9d3e6fb0e3ff11c84fcce2299ac",
+      "rev": "03dee7d518eb783907e5876cf569a18d7120b166",
       "src": "https://github.com/nvim-mini/mini.surround"
     },
     "neogit": {
@@ -93,7 +93,7 @@
       "src": "https://github.com/IrvingWash/text-case.nvim"
     },
     "yazi.nvim": {
-      "rev": "f3af041ea9f8c8ad3864ec82b082ab2addd2ade4",
+      "rev": "9ea49c7c59dd02d04833da126fd75cb68ef41129",
       "src": "https://github.com/mikavilpas/yazi.nvim"
     }
   }
