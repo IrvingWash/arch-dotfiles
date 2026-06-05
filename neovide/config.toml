@@ -1,4 +1,6 @@
 title-hiddel = true
+srgb = true
+frame = "none"
 
 [font]
 normal = "Iosevka Nerd Font"

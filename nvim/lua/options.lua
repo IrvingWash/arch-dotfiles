@@ -30,7 +30,7 @@ opt.hlsearch   = true
 opt.incsearch  = true
 
 opt.signcolumn  = "yes"
-opt.colorcolumn = "80"
+-- opt.colorcolumn = "80"
 opt.showmatch   = true
 opt.cmdheight   = 1
 opt.completeopt = "menuone,noinsert,noselect"

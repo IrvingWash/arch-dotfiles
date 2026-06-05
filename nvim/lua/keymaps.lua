@@ -36,3 +36,15 @@ vim.api.nvim_create_autocmd("TermOpen", {
         )
     end,
 })
+
+vim.api.nvim_create_autocmd("TermOpen", {
+    callback = function(args)
+        local opts = { buffer = args.buf }
+        vim.keymap.set(
+            "n",
+            "<leader>cc",
+            "<cmd>bd!<cr>:split | term ",
+            vim.tbl_extend("force", opts, { desc = "Close terminal and run command" })
+        )
+    end,
+})
