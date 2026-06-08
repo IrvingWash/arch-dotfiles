@@ -3,7 +3,7 @@
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/"))
 (package-initialize)
-(package-refresh-contents)
+;; (package-refresh-contents)
 
 ;; Disable startup shenanigans
 (setq inhibit-splash-screen t)
@@ -17,13 +17,13 @@
 ;; =================
 ;; Look and feel
 ;; =================
-;; Font
 (add-to-list 'default-frame-alist '(font . "Iosevka Nerd Font-14"))
 (load-theme 'catppuccin :no-confirm)
 (column-number-mode 1)
 (show-paren-mode 1)
 (global-display-line-numbers-mode 1)
 (setq display-line-numbers 'relative)
+(setq dired-listing-switches "-al --group-directories-first")
 
 ;; =================
 ;; Editing

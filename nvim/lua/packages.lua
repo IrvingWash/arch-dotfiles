@@ -21,7 +21,10 @@ local packages = {
     },
     -- Themes
     "https://github.com/metalelf0/black-metal-theme-neovim.git",
+    "https://github.com/folke/tokyonight.nvim",
     "https://github.com/ficd0/ashen.nvim",
+    "https://github.com/shaunsingh/nord.nvim",
+    { src = "https://github.com/rose-pine/neovim", name = "rose-pine" },
     { src = "https://github.com/catppuccin/nvim", name = "catppuccin" },
     "https://github.com/dgrco/deepwater.nvim",
     "https://codeberg.org/dapo/carbon-nvim.git",

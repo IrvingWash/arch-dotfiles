@@ -25,6 +25,11 @@ set_keymap({ "n", "v" }, "<C-g>", "1<C-g>", { desc = "Show absolute file path"})
 
 set_keymap({ "n", "v" }, "<leader>cc", ":split | term ", { desc = "Run command" })
 
+set_keymap("n", "<leader>n", "<cmd>cnext<cr>", { desc = "Go to next quick fix list item" })
+set_keymap("n", "<leader>p", "<cmd>cnext<cr>", { desc = "Go to previous quick fix list item" })
+
+set_keymap("n", "<leader>t", "<cmd>tabnew<cr><cmd>term<cr>", { desc = "Open terminal in new tab" })
+
 vim.api.nvim_create_autocmd("TermOpen", {
     callback = function(args)
         local opts = { buffer = args.buf }
