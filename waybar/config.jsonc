@@ -1,0 +1,55 @@
+// -*- mode: jsonc -*-
+{
+    "layer": "top",
+    "position": "bottom",
+    "height": 30,
+    "spacing": 1,
+    "modules-left": [
+        "hyprland/workspaces",
+        "hyprland/submap"
+    ],
+    "modules-center": [
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "hyprland/language",
+        "pulseaudio",
+        "keyboard-state",
+        "sway/language",
+        "temperature",
+        "cpu",
+        "memory",
+        "disk",
+        "battery",
+        "clock"
+    ],
+
+    "hyprland/language": {
+        "format": "{}",
+        "format-ru": "RU",
+        "format-en": "US"
+    },
+    "memory": {
+        "format": "{percentage}% ",
+    },
+    "sway/language": {
+        "format": "{short} {variant}",
+    },
+    "keyboard-state": {
+        "format": "󰌎",
+        "capslock": true
+    },
+    "cpu": {
+        "format": "{usage}% ",
+    },
+    "disk": {
+        "format": "{free}"
+    },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "clock": {
+        "format": "{:%a, %d, %b %H:%M}"
+    }
+}

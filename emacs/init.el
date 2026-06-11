@@ -3,7 +3,6 @@
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/"))
 (package-initialize)
-;; (package-refresh-contents)
 
 ;; Disable startup shenanigans
 (setq inhibit-splash-screen t)
@@ -13,6 +12,10 @@
 (menu-bar-mode 0)
 (tool-bar-mode 0)
 (scroll-bar-mode 0)
+
+;; Disable backups
+(setq make-backup-files nil)
+(setq auto-save-default nil)
 
 ;; =================
 ;; Look and feel
@@ -24,6 +27,11 @@
 (global-display-line-numbers-mode 1)
 (setq display-line-numbers 'relative)
 (setq dired-listing-switches "-al --group-directories-first")
+
+;; Basic inline completion with the {a | b | c} display
+(icomplete-mode 1)
+;; Same but vertical instead of inline (Emacs 28+)
+(fido-vertical-mode 1)
 
 ;; =================
 ;; Editing
