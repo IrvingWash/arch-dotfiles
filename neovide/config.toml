@@ -3,5 +3,5 @@ srgb = true
 frame = "none"
 
 [font]
-normal = "Iosevka Nerd Font"
-size = 9
+normal = "Iosevka Nerd Font Propo"
+size = 14

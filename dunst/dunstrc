@@ -2,7 +2,7 @@
     monitor = 0
     follow = mouse
 
-    font = Iosevka Nerd Font 10
+    font = Iosevka Nerd Font Propo 12
     corner_radius = 8
     padding = 12
     horizontal_padding = 12

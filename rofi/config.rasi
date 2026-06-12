@@ -1,6 +1,10 @@
-@import "themes/catppuccin-mocha"
-
 configuration {
-    show-icons: true;
+    show-icons: false;
     terminal: "ghostty";
+    font: "Iosevka Nerd Font Propo 12";
+    drun-display-format: "{name}";
+}
+
+listview {
+    lines: 1;
 }

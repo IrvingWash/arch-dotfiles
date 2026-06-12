@@ -8,7 +8,7 @@ require("autostart")
 ------------------
 hl.monitor({
     output   = "",
-    mode     = "preferred",
+    mode     = "1920x1200@165",
     position = "auto",
     scale    = "1",
 })
@@ -20,13 +20,9 @@ hl.config({
     general = {
         gaps_in  = 5,
         gaps_out = 10,
-        border_size = 1,
+        border_size = 2,
         col = {
-            active_border   = {
-                colors = {"rgba(33ccffee)",
-                "rgba(00ff99ee)"},
-                angle = 45,
-            },
+            active_border   = "rgba(ffffffff)",
             inactive_border = "rgba(595959aa)",
         },
         resize_on_border = true,

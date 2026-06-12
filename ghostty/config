@@ -1,10 +1,13 @@
 config-file = ?auto/theme.ghostty
 
-font-size = 14
-font-family = Iosevka Nerd Font
+font-size = 16
+font-family = "Iosevka Nerd Font Mono"
 
 window-decoration = false
 confirm-close-surface = false
+
+shell-integration = fish
+scrollbar = never
 
 # Shaders
 custom-shader = shaders/cursor_smear.glsl
