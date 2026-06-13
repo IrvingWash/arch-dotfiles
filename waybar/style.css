@@ -25,10 +25,10 @@ window#waybar {
     padding: 0 3px;
 }
 #workspaces button.active {
-    background: #7cb2ba;
+    background: #2991ac;
 }
 #workspaces button.urgent {
-    background: #edd993;
+    background: #608752;
 }
 
 tooltip {

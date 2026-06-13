@@ -9,6 +9,7 @@ fish_add_path ~/Apps/jai/bin
 fish_add_path ~/Apps/Jails
 fish_add_path ~/Apps/vulkan_sdk/x86_64/bin
 fish_add_path ~/Apps/fred/
+fish_add_path ~/.cargo/bin/
 
 # Enable vi mode
 fish_vi_key_bindings

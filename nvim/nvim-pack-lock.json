@@ -13,7 +13,7 @@
       "src": "https://github.com/metalelf0/black-metal-theme-neovim.git"
     },
     "blink.cmp": {
-      "rev": "d2c4d170ad51e5116da7b19f2426f3b6e318161d",
+      "rev": "b02ac65634bdb8af2dcc4eb6c807c060e1e15ae6",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.lib": {
@@ -29,7 +29,7 @@
       "src": "https://github.com/catppuccin/nvim"
     },
     "codediff.nvim": {
-      "rev": "29b06f37251f2e010f53a0892573b2ec03d165e2",
+      "rev": "7608f3b436ce1f84a4888f75e53079caa981a2e9",
       "src": "https://github.com/esmuellert/codediff.nvim"
     },
     "deepwater.nvim": {
@@ -53,11 +53,11 @@
       "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
     "mason.nvim": {
-      "rev": "16ba83bfc8a25f52bb545134f5bee082b195c460",
+      "rev": "2a6940af80375532e5e9e7c1f2fc6319a1b7a69d",
       "src": "https://github.com/mason-org/mason.nvim"
     },
     "mini.align": {
-      "rev": "36b0cd9f8b315946849e37f4d0918cf01bb66214",
+      "rev": "a7cd9465ac72c65d726f8fdc8b71ceb63ce8c0fd",
       "src": "https://github.com/nvim-mini/mini.align"
     },
     "mini.cursorword": {
@@ -65,7 +65,7 @@
       "src": "https://github.com/nvim-mini/mini.cursorword"
     },
     "mini.surround": {
-      "rev": "03dee7d518eb783907e5876cf569a18d7120b166",
+      "rev": "9fd5ebef2b34cc4ac3c0f1811a6726ea6d92fa91",
       "src": "https://github.com/nvim-mini/mini.surround"
     },
     "neogit": {
@@ -77,7 +77,7 @@
       "src": "https://github.com/shaunsingh/nord.nvim"
     },
     "nvim-lspconfig": {
-      "rev": "229b79051b380377664edc4cbd534930154921a1",
+      "rev": "a683e0ddf0cf64c6cd689e18ffb480ade3c162b7",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
@@ -109,7 +109,7 @@
       "src": "https://github.com/folke/tokyonight.nvim"
     },
     "yazi.nvim": {
-      "rev": "9ea49c7c59dd02d04833da126fd75cb68ef41129",
+      "rev": "7514be498c56f2a57e5a72faf55c517b9576665b",
       "src": "https://github.com/mikavilpas/yazi.nvim"
     }
   }

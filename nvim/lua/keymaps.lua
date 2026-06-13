@@ -1,5 +1,15 @@
 -- Plugin independent keymaps
 
+-- ЙЦУКЕН to Colemak DHM
+vim.opt.langmap = {
+    "йцукенгшщз;qwfpbjluy;",
+    "ЙЦУКЕНГШЩЗ;QWFPBJLUY:",
+    "фывапролдж;arstgmneio",
+    "ФЫВАПРОЛДЖ;ARSTGMNEIO",
+    "ячсмитьбю.;zxcdvkh\\,./",
+    "ЯЧСМИТЬБЮ\\,;ZXCDVKH<>?",
+}
+
 vim.g.mapleader     = " "
 vim.g.maplocalleader = " "
 
