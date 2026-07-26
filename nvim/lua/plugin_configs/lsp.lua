@@ -6,12 +6,6 @@ vim.keymap.set("n", "gh",         vim.lsp.buf.hover,                            
 vim.keymap.set("n", "<leader>rr", vim.lsp.buf.rename,                                        { desc = "Rename symbol" })
 vim.keymap.set("n", "<leader>fx", vim.lsp.buf.code_action,                                   { desc = "Toggle code actions" })
 
-vim.lsp.config("jails", {
-    cmd = { "jails", "-jai_path", vim.fn.expand("~/Apps/jai"), "-jai_exe_name", "jai" },
-    filetypes = { "jai" },
-    root_markers = { ".git", "build.jai", "jails.json" },
-})
-
 vim.lsp.enable({
     "jails",
     "clangd",
@@ -19,4 +13,5 @@ vim.lsp.enable({
     "slangd",
     "rust_analyzer",
     "zls",
+    "tinymist",
 })

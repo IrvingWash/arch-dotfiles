@@ -7,7 +7,6 @@ local packages = {
     "https://github.com/lewis6991/gitsigns.nvim",
     "https://github.com/mason-org/mason.nvim",
     "https://github.com/neovim/nvim-lspconfig",
-    "https://github.com/rluba/jai.vim",
     "https://github.com/saghen/blink.cmp",
     "https://github.com/esmuellert/codediff.nvim",
     "https://github.com/NeogitOrg/neogit",

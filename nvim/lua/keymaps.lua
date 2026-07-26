@@ -1,14 +1,14 @@
 -- Plugin independent keymaps
 
 -- ЙЦУКЕН to Colemak DHM
-vim.opt.langmap = {
-    "йцукенгшщз;qwfpbjluy;",
-    "ЙЦУКЕНГШЩЗ;QWFPBJLUY:",
-    "фывапролдж;arstgmneio",
-    "ФЫВАПРОЛДЖ;ARSTGMNEIO",
-    "ячсмитьбю.;zxcdvkh\\,./",
-    "ЯЧСМИТЬБЮ\\,;ZXCDVKH<>?",
-}
+-- vim.opt.langmap = {
+--     "йцукенгшщз;qwfpbjluy;",
+--     "ЙЦУКЕНГШЩЗ;QWFPBJLUY:",
+--     "фывапролдж;arstgmneio",
+--     "ФЫВАПРОЛДЖ;ARSTGMNEIO",
+--     "ячсмитьбю.;zxcdvkh\\,./",
+--     "ЯЧСМИТЬБЮ\\,;ZXCDVKH<>?",
+-- }
 
 vim.g.mapleader     = " "
 vim.g.maplocalleader = " "
@@ -33,12 +33,15 @@ set_keymap("v", "<", "<gv", { desc = "Indent left and reselect" })
 
 set_keymap({ "n", "v" }, "<C-g>", "1<C-g>", { desc = "Show absolute file path"})
 
-set_keymap({ "n", "v" }, "<leader>cc", ":split | term ", { desc = "Run command" })
+set_keymap("n", "<leader>co", "<cmd>copen<cr>", { desc = "Open quick fix list" })
+set_keymap("n", "<leader>cq", "<cmd>cclose<cr>", { desc = "Close quick fix list" })
 
 set_keymap("n", "<leader>n", "<cmd>cnext<cr>", { desc = "Go to next quick fix list item" })
 set_keymap("n", "<leader>p", "<cmd>cnext<cr>", { desc = "Go to previous quick fix list item" })
 
 set_keymap("n", "<leader>t", "<cmd>tabnew<cr><cmd>term<cr>", { desc = "Open terminal in new tab" })
+
+set_keymap({ "n", "v" }, "<leader>cc", ":split | term ", { desc = "Run command" })
 
 vim.api.nvim_create_autocmd("TermOpen", {
     callback = function(args)

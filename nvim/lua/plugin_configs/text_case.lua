@@ -6,7 +6,7 @@ vim.keymap.set(
     function()
         require("textcase").current_word("to_ada_case")
      end,
-    { desc = "Open Yazi file explorer" }
+    { desc = "Convert to ada case" }
 )
 
 vim.keymap.set(
@@ -15,5 +15,5 @@ vim.keymap.set(
     function()
         require("textcase").current_word("to_snake_case")
      end,
-    { desc = "Open Yazi file explorer" }
+    { desc = "Convert to snake case" }
 )
