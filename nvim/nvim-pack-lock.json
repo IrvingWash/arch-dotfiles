@@ -13,7 +13,7 @@
       "src": "https://github.com/metalelf0/black-metal-theme-neovim.git"
     },
     "blink.cmp": {
-      "rev": "1e4a8fb9708bbaa35addaa198638feed622d56ae",
+      "rev": "d33327a0ed7bfe3cd5dfa2fdd2738ad74f9e0ea3",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.lib": {
@@ -29,12 +29,16 @@
       "src": "https://github.com/catppuccin/nvim"
     },
     "codediff.nvim": {
-      "rev": "1739102d1cc7153ea9f8f7df7d6a6134ebc46111",
+      "rev": "d3eb933df1de9e246186b33f61e40eb7752a92b2",
       "src": "https://github.com/esmuellert/codediff.nvim"
     },
     "deepwater.nvim": {
       "rev": "6f1b945098c497bd7249e3f7ad37f5d0443f5463",
       "src": "https://github.com/dgrco/deepwater.nvim"
+    },
+    "e-ink.nvim": {
+      "rev": "a0f003a0c6e2952abd9b73ef89d56c65e6c46f00",
+      "src": "https://github.com/e-ink-colorscheme/e-ink.nvim"
     },
     "fzf-lua": {
       "rev": "28440c741e927592877514fba3db21eb188caec8",
@@ -65,7 +69,7 @@
       "src": "https://github.com/nvim-mini/mini.surround"
     },
     "neogit": {
-      "rev": "57c9f8ee784bcd07141bf7fa958b5c5bb1420de8",
+      "rev": "37e0f22a2345bad1bffe01b31970885882f46275",
       "src": "https://github.com/NeogitOrg/neogit"
     },
     "nord.nvim": {
@@ -105,7 +109,7 @@
       "src": "https://github.com/folke/tokyonight.nvim"
     },
     "yazi.nvim": {
-      "rev": "5fa07998df7c623bf85fdaf3e3e841b2df529f43",
+      "rev": "840b9792a6ec97afce384f6821e64409510d6246",
       "src": "https://github.com/mikavilpas/yazi.nvim"
     }
   }
