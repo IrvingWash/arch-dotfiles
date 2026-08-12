@@ -46,6 +46,9 @@
         "format-ru": "RU",
         "format-en": "US"
     },
+    "pulsaudio": {
+        format: "{volume}% "
+    },
     "memory": {
         "format": "{percentage}% ",
     },
