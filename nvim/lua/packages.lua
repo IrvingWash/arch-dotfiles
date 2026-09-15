@@ -1,4 +1,5 @@
 local packages = {
+    "https://github.com/rluba/jai.vim",
     "https://github.com/mikavilpas/yazi.nvim",
     "https://github.com/ibhagwan/fzf-lua",
     "https://github.com/nvim-mini/mini.cursorword",
@@ -12,7 +13,6 @@ local packages = {
     "https://github.com/NeogitOrg/neogit",
     "https://github.com/IrvingWash/text-case.nvim",
     "https://github.com/stevearc/oil.nvim",
-    "https://github.com/nvim-lualine/lualine.nvim",
     {
         src = "https://github.com/nvim-treesitter/nvim-treesitter",
         branch = "main",
@@ -25,6 +25,7 @@ local packages = {
     "https://github.com/shaunsingh/nord.nvim",
     { src = "https://github.com/rose-pine/neovim", name = "rose-pine"  },
     { src = "https://github.com/catppuccin/nvim",  name = "catppuccin" },
+    "https://github.com/RostislavArts/naysayer.nvim",
     "https://github.com/dgrco/deepwater.nvim",
     "https://codeberg.org/dapo/carbon-nvim.git",
     "https://github.com/e-ink-colorscheme/e-ink.nvim",

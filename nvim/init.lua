@@ -18,6 +18,5 @@ require("plugin_configs.codediff")
 require("plugin_configs.neogit")
 require("plugin_configs.text_case")
 require("plugin_configs.oil")
-require("plugin_configs.lualine")
 
 require("jai")

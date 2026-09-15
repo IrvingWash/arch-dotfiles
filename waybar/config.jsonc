@@ -47,7 +47,7 @@
         "format-en": "US"
     },
     "pulsaudio": {
-        format: "{volume}% "
+        "format": "{volume}% "
     },
     "memory": {
         "format": "{percentage}% ",
