@@ -14,4 +14,5 @@ vim.lsp.enable({
     "rust_analyzer",
     "zls",
     "tinymist",
+    "glsl_analyzer",
 })
