@@ -33,7 +33,6 @@ opt.signcolumn  = "yes"
 -- opt.colorcolumn = "80"
 opt.showmatch   = true
 opt.cmdheight   = 1
-opt.completeopt = "menuone,noinsert,noselect"
 opt.showmode    = true
 opt.lazyredraw  = true
 opt.fillchars   = { eob = " " }
@@ -59,37 +58,37 @@ opt.errorbells = false
 opt.foldlevelstart = 99
 opt.showmode = false
 
-local function disable_builtins()
-    local builtins = {
-        "2html_plugin",
-        "getscript",
-        "getscriptPlugin",
-        "gzip",
-        "logipat",
-        "netrw",
-        "netrwPlugin",
-        "netrwSettings",
-        "netrwFileHandlers",
-        "matchit",
-        "tar",
-        "tarPlugin",
-        "rrhelper",
-        "spellfile_plugin",
-        "vimball",
-        "vimballPlugin",
-        "zip",
-        "zipPlugin",
-        "tutor",
-        "rplugin",
-        "synmenu",
-        "optwin",
-        "compiler",
-        "bugreport",
-        "ftplugin",
-    }
-
-    for _, plugin in pairs(builtins) do
-        vim.g["loaded_" .. plugin] = 1
-    end
-end
-disable_builtins()
+-- local function disable_builtins()
+--     local builtins = {
+--         "2html_plugin",
+--         "getscript",
+--         "getscriptPlugin",
+--         "gzip",
+--         "logipat",
+--         "netrw",
+--         "netrwPlugin",
+--         "netrwSettings",
+--         "netrwFileHandlers",
+--         "matchit",
+--         "tar",
+--         "tarPlugin",
+--         "rrhelper",
+--         "spellfile_plugin",
+--         "vimball",
+--         "vimballPlugin",
+--         "zip",
+--         "zipPlugin",
+--         "tutor",
+--         "rplugin",
+--         "synmenu",
+--         "optwin",
+--         "compiler",
+--         "bugreport",
+--         "ftplugin",
+--     }
+--
+--     for _, plugin in pairs(builtins) do
+--         vim.g["loaded_" .. plugin] = 1
+--     end
+-- end
+-- disable_builtins()

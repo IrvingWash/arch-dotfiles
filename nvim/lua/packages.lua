@@ -8,7 +8,6 @@ local packages = {
     "https://github.com/lewis6991/gitsigns.nvim",
     "https://github.com/mason-org/mason.nvim",
     "https://github.com/neovim/nvim-lspconfig",
-    "https://github.com/saghen/blink.cmp",
     "https://github.com/esmuellert/codediff.nvim",
     "https://github.com/NeogitOrg/neogit",
     "https://github.com/IrvingWash/text-case.nvim",
@@ -31,7 +30,6 @@ local packages = {
     "https://github.com/e-ink-colorscheme/e-ink.nvim",
     -- Dependencies which are not used directly
     "https://github.com/m00qek/baleia.nvim", -- for neogit
-    "https://github.com/saghen/blink.lib", -- for blink.cmp
     "https://github.com/nvim-lua/plenary.nvim",
     "https://github.com/nvim-tree/nvim-web-devicons",
 }
