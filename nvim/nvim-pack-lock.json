@@ -41,7 +41,7 @@
       "src": "https://github.com/e-ink-colorscheme/e-ink.nvim"
     },
     "fzf-lua": {
-      "rev": "78b85d2a522b1e6a2d154216b3e532a1df1ad6d7",
+      "rev": "eab53acb3fd36479f084f854b4418d02b5c70382",
       "src": "https://github.com/ibhagwan/fzf-lua"
     },
     "gitsigns.nvim": {
@@ -77,7 +77,7 @@
       "src": "https://github.com/RostislavArts/naysayer.nvim"
     },
     "neogit": {
-      "rev": "5adc81b26232954cd7a90f158aa7844c18fc3165",
+      "rev": "c51a1dc7e0e0f40c4c396a2b1ceaa44b44e96032",
       "src": "https://github.com/NeogitOrg/neogit"
     },
     "nord.nvim": {
@@ -89,7 +89,7 @@
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
-      "rev": "25a9b06a09ea4e10712bec37e7b7d9f423262b91",
+      "rev": "728e031f6b11d03d1f0708b7dc4fb0f1d9c8a137",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "nvim-web-devicons": {
@@ -117,7 +117,7 @@
       "src": "https://github.com/folke/tokyonight.nvim"
     },
     "yazi.nvim": {
-      "rev": "9b1206cafe09401ab455db3dbce341a869cdebb0",
+      "rev": "bc2f9d0d4d7f05f9c1bee0c3482e5ffd341ebfb7",
       "src": "https://github.com/mikavilpas/yazi.nvim"
     }
   }
