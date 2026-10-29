@@ -18,4 +18,5 @@ vim.lsp.enable({
     "zls",
     "tinymist",
     "glsl_analyzer",
+    "ts_ls",
 })

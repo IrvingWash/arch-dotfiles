@@ -17,3 +17,12 @@ vim.keymap.set(
      end,
     { desc = "Convert to snake case" }
 )
+
+vim.keymap.set(
+    { "n", "v" },
+    "<leader>sca",
+    function()
+        require("textcase").current_word("to_camel_case")
+     end,
+    { desc = "Convert to camel case" }
+)

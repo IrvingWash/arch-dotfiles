@@ -5,6 +5,7 @@ local packages = {
     "https://github.com/nvim-mini/mini.cursorword",
     "https://github.com/nvim-mini/mini.surround",
     "https://github.com/nvim-mini/mini.align",
+    "https://github.com/nvim-mini/mini.splitjoin",
     "https://github.com/lewis6991/gitsigns.nvim",
     "https://github.com/mason-org/mason.nvim",
     "https://github.com/neovim/nvim-lspconfig",
@@ -35,6 +36,9 @@ local packages = {
 }
 
 vim.pack.add(packages)
+
+vim.cmd.packadd("nvim.undotree")
+vim.cmd.packadd("nvim.difftool")
 
 vim.api.nvim_create_user_command(
     "PackUpdate",

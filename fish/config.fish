@@ -8,11 +8,7 @@ export EDITOR=nvim
 fish_add_path ~/Apps/jai/bin
 fish_add_path ~/Apps/Jails
 fish_add_path ~/Apps/vulkan_sdk/x86_64/bin
-fish_add_path ~/Apps/fred/
 fish_add_path ~/.cargo/bin/
-fish_add_path ~/Apps/gcc-mipsel-none-elf-12.3.0-linux/bin
-fish_add_path ~/Apps/PSn00bSDK-0.24-Linux/bin
-fish_add_path ~/Apps/raddebugger
 
 # Enable vi mode
 fish_vi_key_bindings

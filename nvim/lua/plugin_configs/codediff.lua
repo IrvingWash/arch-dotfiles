@@ -4,5 +4,6 @@ vim.keymap.set({ "n", "v" }, "<leader>pcd", "<cmd>CodeDiff master...<cr>", { des
 require("codediff").setup({
     explorer = {
         position = "left",
+        width    = 20,
     }
 })
