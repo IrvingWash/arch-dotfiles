@@ -76,19 +76,3 @@ hl.bind("XF86AudioNext",  hl.dsp.exec_cmd("playerctl next"),       { locked = tr
 hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
-
-hl.bind("SUPER + G", function()
-    hl.plugin.hyprexpo.expo("toggle")
-end)
-hl.config({
-    plugin = {
-        hyprexpo = {
-            columns = 3,
-            rows = 0, -- Follow columns for a square grid.
-            gaps_in = 5,
-            gaps_out = 0,
-            bg_col = "rgb(111111)",
-            workspace_method = "center current",
-        },
-    },
-})

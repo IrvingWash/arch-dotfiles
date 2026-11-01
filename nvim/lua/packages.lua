@@ -18,6 +18,7 @@ local packages = {
         branch = "main",
         build = ":TSUpdate",
     },
+
     -- Themes
     "https://github.com/metalelf0/black-metal-theme-neovim.git",
     "https://github.com/folke/tokyonight.nvim",
@@ -29,6 +30,8 @@ local packages = {
     "https://github.com/dgrco/deepwater.nvim",
     "https://codeberg.org/dapo/carbon-nvim.git",
     "https://github.com/e-ink-colorscheme/e-ink.nvim",
+     'https://github.com/mcncl/alabaster.nvim',
+
     -- Dependencies which are not used directly
     "https://github.com/m00qek/baleia.nvim", -- for neogit
     "https://github.com/nvim-lua/plenary.nvim",

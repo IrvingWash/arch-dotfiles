@@ -7,16 +7,70 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "semantic_tokens": "combined",
+  "title_bar": {
+    "show_menus": true,
+    "show_user_menu": true,
+    "show_sign_in": false,
+    "show_onboarding_banner": false,
+    "show_project_items": true,
+    "show_worktree_name": true,
+    "show_branch_name": true,
+    "show_branch_status_icon": false
+  },
+  "proxy": "",
+  "disable_ai": true,
+  "show_edit_predictions": false,
+  "buffer_font_family": "Iosevka Nerd Font Propo",
+  "outline_panel": {
+    "button": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "git_panel": {
+    "button": false
+  },
+  "debugger": {
+    "button": false
+  },
+  "status_bar": {
+    "line_endings_button": false,
+    "active_language_button": false
+  },
+  "global_lsp_settings": {
+    "button": false
+  },
+  "diagnostics": {
+    "button": true
+  },
+  "search": {
+    "button": false
+  },
+  "agent": {
+    "button": false,
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": true,
+    "show": false
+  },
+  "terminal": {
+    "button": false,
+    "font_family": "Iosevka Nerd Font Mono"
+  },
   "show_whitespaces": "all",
   "project_panel": {
+    "button": false,
     "dock": "left"
   },
   "vim_mode": true,
-  "ui_font_size": 16,
-  "buffer_font_size": 19.0,
+  "ui_font_size": 18.0,
+  "buffer_font_size": 20.0,
   "theme": {
     "mode": "light",
-    "light": "Gruvbox Light Soft",
+    "light": "Ayu Light",
     "dark": "Naysayer",
   },
 }
