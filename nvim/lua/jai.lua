@@ -18,3 +18,23 @@ vim.api.nvim_create_autocmd("FileType", {
         vim.bo.errorformat = [[%f:%l\,%c: Error: %m]]
     end,
 })
+
+-- Treesitter
+vim.api.nvim_create_autocmd("User", {
+  pattern = "TSUpdate",
+  callback = function()
+    require("nvim-treesitter.parsers").jai = {
+      install_info = {
+        url = "https://github.com/SogoCZE/tree-sitter-jai",
+        queries = "queries",
+      },
+    }
+  end,
+})
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "jai",
+  callback = function()
+    vim.treesitter.start()
+  end,
+})

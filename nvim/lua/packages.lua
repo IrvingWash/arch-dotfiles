@@ -18,6 +18,7 @@ local packages = {
         branch = "main",
         build = ":TSUpdate",
     },
+    "https://github.com/IrvingWash/nvim-treesitter-context.git",
 
     -- Themes
     "https://github.com/metalelf0/black-metal-theme-neovim.git",

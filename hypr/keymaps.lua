@@ -1,4 +1,4 @@
-local terminal    = "kitty"
+local terminal    = "ghostty"
 local menu        = "rofi -show drun"
 
 local mainMod = "SUPER"
